@@ -21,6 +21,9 @@ class Return_value:
             self.return_type=return_type
             self.return_description=return_description
             self.return_name=return_name
+'''
+添加了方法声明项，主要用来解析swift的数据类型问题
+'''
 class Method:
     is_static=False
     class_name=""
@@ -28,19 +31,20 @@ class Method:
     method_description=""
     params=[]
     return_value=Return_value()
-    def __init__(self,class_name,method_name,method_description,params,return_value,is_static=False):
+    def __init__(self,class_name,method_name,method_description,params,return_value,is_static=False,method_declar=""):
         self.class_name =class_name
         self.method_name=method_name
         self.method_description=method_description
         self.params=params
         self.return_value=return_value
         self.is_static=is_static
+        self.method_declar=method_declar
 class Var:
     class_name=""
     var_name=""
     var_type=""
     var_description=""
-    def __init__(self,var_name="",var_type="",var_description="",is_static=False):
+    def __init__(self,var_name="",var_type="",var_description="",is_static=False,var_declar=""):
         self.var_name=var_name
         self.var_type=var_type
         self.var_description=var_description
@@ -49,7 +53,9 @@ class Var:
 class_key 在java 是 interface or class
 swift class struct enum protocol
 java的类类型有 "class","interface","enum","other"
-swift的类类型有 "class",
+swift的类类型有 "class","struct","enum","protocol"
+
+typealias 处理在类中出现的别名问题
 '''
 class Class_info:
     package_name=""
@@ -65,7 +71,7 @@ class Class_info:
     subclass_list=[]
     Methods=[]
     Vars=[]
-    def __init__(self, package_name,class_name, class_description,class_inherit,subclass,interface, Methods,Vars=None,class_type=None):
+    def __init__(self, package_name,class_name, class_description,class_inherit,subclass,interface, Methods,Vars=None,class_type=None,typealias=[]):
         self.package_name=package_name
         self.class_name=class_name
         self.class_description=class_description
@@ -75,7 +81,7 @@ class Class_info:
         self.Methods=Methods
         self.Vars=Vars
         self.class_type=class_type
-            
+        self.typealias=typealias    
 def convert_to_dicts(objs):
     '''把对象列表转换为字典列表'''
     obj_arr = []
