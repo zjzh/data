@@ -10,3 +10,7 @@ load_data_json_example.py
 swift_all.zip	swift所有的类数据
 
 utils.py 一些工具包存放一些方法
+
+data/java  新的java 类数据  增加了 class_type
+
+data/swift  新的swift 类数据  增加了 class_type  别名
