@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "An interface that is implemented by objects that perform match operations on\n paths. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "PathMatcher", "Vars": null}

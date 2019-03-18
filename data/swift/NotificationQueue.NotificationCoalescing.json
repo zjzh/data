@@ -1,0 +1,1 @@
+{"class_description": "These constants are used by the enqueue(_:postingStyle:coalesceMask:forModes:) method.\n", "Methods": [], "class_inherit_list": [], "class_name": "NotificationQueue.NotificationCoalescing", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["OptionSet"], "package_name": "foundation", "subclass_list": []}

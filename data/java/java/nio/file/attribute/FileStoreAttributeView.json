@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file.attribute", "subclass_list": [], "class_description": "An attribute view that is a read-only or updatable view of the attributes of\n a FileStore. ", "class_type": "interface", "typealias": [], "interface_list": ["AttributeView"], "class_inherit_list": [], "Methods": [], "class_name": "FileStoreAttributeView", "Vars": null}

@@ -1,0 +1,1 @@
+{"class_description": "These constants are possible values for the ubiquitousItemDownloadingStatusKey key.\n", "Methods": [], "class_inherit_list": [], "class_name": "URLUbiquitousItemDownloadingStatus", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["Equatable", "Hashable", "RawRepresentable"], "package_name": "foundation", "subclass_list": []}

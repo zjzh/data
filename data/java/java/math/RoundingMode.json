@@ -1,0 +1,1 @@
+{"package_name": "java.math", "subclass_list": [], "class_description": "Specifies the rounding behavior for operations whose results cannot be\n represented exactly. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<RoundingMode>"], "Methods": [], "class_name": "RoundingMode", "Vars": null}

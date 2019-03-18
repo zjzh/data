@@ -1,0 +1,1 @@
+{"Methods": [], "Vars": [], "class_name": "StrideThrough", "interface_list": ["CustomReflectable", "Sequence"], "class_description": "Use the stride(from:through:by:) function to create StrideThrough instances.\n", "class_inherit_list": [], "package_name": "swift", "subclass_list": [], "class_type": "struct", "typealias": []}

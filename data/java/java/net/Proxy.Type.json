@@ -1,0 +1,1 @@
+{"package_name": "java.net", "subclass_list": [], "class_description": "Represents the proxy type. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<Proxy.Type>"], "Methods": [], "class_name": "Proxy.Type", "Vars": null}

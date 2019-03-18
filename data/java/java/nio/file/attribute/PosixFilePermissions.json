@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file.attribute", "subclass_list": [], "class_description": "This class consists exclusively of static methods that operate on sets of\n PosixFilePermission objects. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "PosixFilePermissions", "Vars": null}

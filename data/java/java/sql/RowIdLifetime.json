@@ -1,0 +1,1 @@
+{"package_name": "java.sql", "subclass_list": [], "class_description": "Enumeration for RowId life-time values. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<RowIdLifetime>"], "Methods": [], "class_name": "RowIdLifetime", "Vars": null}

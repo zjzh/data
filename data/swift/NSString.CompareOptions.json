@@ -1,0 +1,1 @@
+{"class_description": "See Searching, Comparing, and Sorting Strings for details on the effects of these options.\n", "Methods": [], "class_inherit_list": [], "class_name": "NSString.CompareOptions", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["OptionSet"], "package_name": "foundation", "subclass_list": []}

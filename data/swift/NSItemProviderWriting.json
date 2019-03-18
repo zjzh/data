@@ -1,0 +1,1 @@
+{"class_description": "A source app uses an object that conforms to this protocol to initialize an item provider for a copied or dragged item.\n", "Methods": [], "class_inherit_list": ["NSObjectProtocol"], "class_name": "NSItemProviderWriting", "typealias": [], "Vars": [], "class_type": "protocol", "interface_list": [], "package_name": "foundation", "subclass_list": []}

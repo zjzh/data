@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "Defines the options as to how symbolic links are handled. ", "class_type": "enum", "typealias": [], "interface_list": ["OpenOption", "CopyOption"], "class_inherit_list": ["Enum<LinkOption>"], "Methods": [], "class_name": "LinkOption", "Vars": null}

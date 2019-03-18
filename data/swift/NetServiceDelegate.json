@@ -1,0 +1,1 @@
+{"class_description": "The NetServiceDelegate protocol defines the optional methods implemented by delegates of NetService objects.\n", "Methods": [], "class_inherit_list": ["NSObjectProtocol"], "class_name": "NetServiceDelegate", "typealias": [], "Vars": [], "class_type": "protocol", "interface_list": [], "package_name": "foundation", "subclass_list": []}

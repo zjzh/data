@@ -1,0 +1,1 @@
+{"Methods": [], "Vars": [], "class_name": "IteratorSequence", "interface_list": ["IteratorProtocol", "Sequence"], "class_description": "Useful mostly to recover the ability to use for\u2026in, given just an iterator i:\n", "class_inherit_list": [], "package_name": "swift", "subclass_list": [], "class_type": "struct", "typealias": []}

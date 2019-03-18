@@ -1,0 +1,1 @@
+{"class_description": "", "Methods": [], "class_inherit_list": ["ValueTransformer"], "class_name": "NSSecureUnarchiveFromDataTransformer", "typealias": [], "Vars": [], "class_type": "class", "interface_list": ["CVarArg", "Equatable", "Hashable"], "package_name": "foundation", "subclass_list": []}

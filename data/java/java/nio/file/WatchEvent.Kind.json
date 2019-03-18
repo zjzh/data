@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "An event kind, for the purposes of identification. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "WatchEvent.Kind", "Vars": null}

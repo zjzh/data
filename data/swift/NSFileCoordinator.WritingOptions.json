@@ -1,0 +1,1 @@
+{"class_description": "You must specify only one constant at a time for a given write operation.\n", "Methods": [], "class_inherit_list": [], "class_name": "NSFileCoordinator.WritingOptions", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["OptionSet"], "package_name": "foundation", "subclass_list": []}

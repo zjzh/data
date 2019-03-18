@@ -1,0 +1,1 @@
+{"package_name": "javax.xml.xpath", "subclass_list": [], "class_description": " XPathExpression provides access to compiled XPath expressions. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "XPathExpression", "Vars": null}

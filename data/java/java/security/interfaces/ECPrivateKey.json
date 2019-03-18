@@ -1,0 +1,1 @@
+{"package_name": "java.security.interfaces", "subclass_list": [], "class_description": "The interface to an elliptic curve (EC) private key. ", "class_type": "interface", "typealias": [], "interface_list": ["PrivateKey", "ECKey"], "class_inherit_list": [], "Methods": [], "class_name": "ECPrivateKey", "Vars": null}

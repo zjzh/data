@@ -1,0 +1,1 @@
+{"class_description": "These constants are used by the urls(for:in:) and url(for:in:appropriateFor:create:) methods of FileManager.\n", "Methods": [], "class_inherit_list": [], "class_name": "FileManager.SearchPathDirectory", "typealias": [], "Vars": [], "class_type": "enum", "interface_list": [], "package_name": "foundation", "subclass_list": []}

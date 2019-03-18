@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file.attribute", "subclass_list": [], "class_description": "Defines the permissions for use with the permissions component of an ACL\n AclEntry. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<AclEntryPermission>"], "Methods": [], "class_name": "AclEntryPermission", "Vars": null}

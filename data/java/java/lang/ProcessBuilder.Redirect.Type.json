@@ -1,0 +1,1 @@
+{"package_name": "java.lang", "subclass_list": [], "class_description": "The type of a Redirect. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<ProcessBuilder.Redirect.Type>"], "Methods": [], "class_name": "ProcessBuilder.Redirect.Type", "Vars": null}

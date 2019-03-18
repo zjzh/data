@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "Defines the standard copy options. ", "class_type": "enum", "typealias": [], "interface_list": ["CopyOption"], "class_inherit_list": ["Enum<StandardCopyOption>"], "Methods": [], "class_name": "StandardCopyOption", "Vars": null}

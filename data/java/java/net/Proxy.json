@@ -1,0 +1,1 @@
+{"package_name": "java.net", "subclass_list": [], "class_description": "This class represents a proxy setting, typically a type (http, socks) and\n a socket address.\n A Proxy is an immutable object. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "Proxy", "Vars": null}

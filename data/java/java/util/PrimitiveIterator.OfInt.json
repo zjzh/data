@@ -1,0 +1,1 @@
+{"package_name": "java.util", "subclass_list": [], "class_description": "An Iterator specialized for int values. ", "class_type": "interface", "typealias": [], "interface_list": ["PrimitiveIterator<Integer", "\u00a0IntConsumer>"], "class_inherit_list": [], "Methods": [], "class_name": "PrimitiveIterator.OfInt", "Vars": null}

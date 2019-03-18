@@ -1,0 +1,1 @@
+{"package_name": "java.io", "subclass_list": [], "class_description": "A filter for abstract pathnames. Instances of this interface may be passed to the File#listFiles(java.io.FileFilter) method\n of the File class. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "FileFilter", "Vars": null}

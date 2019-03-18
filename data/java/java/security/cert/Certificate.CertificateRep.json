@@ -1,0 +1,1 @@
+{"package_name": "java.security.cert", "subclass_list": [], "class_description": "Alternate Certificate class for serialization. ", "class_type": "class", "typealias": [], "interface_list": ["Serializable"], "class_inherit_list": ["Object"], "Methods": [], "class_name": "Certificate.CertificateRep", "Vars": null}

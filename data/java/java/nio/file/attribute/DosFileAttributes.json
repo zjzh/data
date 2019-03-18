@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file.attribute", "subclass_list": [], "class_description": "File attributes associated with a file in a file system that supports\n legacy \"DOS\" attributes. Usage Example: ", "class_type": "interface", "typealias": [], "interface_list": ["BasicFileAttributes"], "class_inherit_list": [], "Methods": [], "class_name": "DosFileAttributes", "Vars": null}

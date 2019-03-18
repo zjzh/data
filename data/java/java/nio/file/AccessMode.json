@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "Defines access modes used to test the accessibility of a file. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<AccessMode>"], "Methods": [], "class_name": "AccessMode", "Vars": null}

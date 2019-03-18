@@ -1,0 +1,1 @@
+{"package_name": "java.nio.channels", "subclass_list": [], "class_description": "A typesafe enumeration for file-mapping modes. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "FileChannel.MapMode", "Vars": null}

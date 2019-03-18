@@ -1,0 +1,1 @@
+{"package_name": "javax.xml.datatype", "subclass_list": [], "class_description": " Utility class to contain basic Datatype values as constants. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "DatatypeConstants", "Vars": null}

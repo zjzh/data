@@ -1,0 +1,1 @@
+{"class_description": "A type that conforms to RangeExpression can convert itself to a Range<Bound> of indices within a given collection.\n", "Methods": [], "class_inherit_list": [], "class_name": "RangeExpression", "typealias": [], "Vars": [], "class_type": "protocol", "interface_list": [], "package_name": "swift", "subclass_list": []}

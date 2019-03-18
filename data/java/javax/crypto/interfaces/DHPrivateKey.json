@@ -1,0 +1,1 @@
+{"package_name": "javax.crypto.interfaces", "subclass_list": [], "class_description": "The interface to a Diffie-Hellman private key. ", "class_type": "interface", "typealias": [], "interface_list": ["DHKey", "PrivateKey"], "class_inherit_list": [], "Methods": [], "class_name": "DHPrivateKey", "Vars": null}

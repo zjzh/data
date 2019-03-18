@@ -1,0 +1,1 @@
+{"package_name": "java.lang", "subclass_list": [], "class_description": "Does nothing on Android. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "Compiler", "Vars": null}

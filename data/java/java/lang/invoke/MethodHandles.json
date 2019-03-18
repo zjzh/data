@@ -1,0 +1,1 @@
+{"package_name": "java.lang.invoke", "subclass_list": [], "class_description": "This class consists exclusively of static methods that operate on or return\n method handles. They fall into several categories:  ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "MethodHandles", "Vars": null}

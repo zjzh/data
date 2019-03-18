@@ -1,0 +1,1 @@
+{"package_name": "javax.xml.xpath", "subclass_list": [], "class_description": " XPathFunction provides access to XPath functions. Functions are identified by QName and arity in XPath. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "XPathFunction", "Vars": null}

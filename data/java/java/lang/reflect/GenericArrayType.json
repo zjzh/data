@@ -1,0 +1,1 @@
+{"package_name": "java.lang.reflect", "subclass_list": [], "class_description": "GenericArrayType represents an array type whose component\n type is either a parameterized type or a type variable. ", "class_type": "interface", "typealias": [], "interface_list": ["Type"], "class_inherit_list": [], "Methods": [], "class_name": "GenericArrayType", "Vars": null}

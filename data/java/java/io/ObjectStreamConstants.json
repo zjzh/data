@@ -1,0 +1,1 @@
+{"package_name": "java.io", "subclass_list": ["ObjectInputStream", "ObjectOutputStream", "ObjectInputStream", "ObjectOutputStream"], "class_description": "Constants written into the Object Serialization Stream. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "ObjectStreamConstants", "Vars": null}

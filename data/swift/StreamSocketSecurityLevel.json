@@ -1,0 +1,1 @@
+{"class_description": "You access and set these values using the NSStreamSocketSecurityLevelKey property key.\n", "Methods": [], "class_inherit_list": [], "class_name": "StreamSocketSecurityLevel", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["Equatable", "Hashable", "RawRepresentable"], "package_name": "foundation", "subclass_list": []}

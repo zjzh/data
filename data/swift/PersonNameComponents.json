@@ -1,0 +1,1 @@
+{"class_description": "", "Methods": [], "class_inherit_list": [], "class_name": "PersonNameComponents", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["CustomDebugStringConvertible", "CustomReflectable", "CustomStringConvertible", "Equatable", "Hashable", "ReferenceConvertible"], "package_name": "foundation", "subclass_list": []}

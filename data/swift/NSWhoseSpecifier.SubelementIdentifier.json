@@ -1,0 +1,1 @@
+{"class_description": "These constants are used by startSubelementIdentifier, startSubelementIdentifier, endSubelementIdentifier, and endSubelementIdentifier.\n", "Methods": [], "class_inherit_list": [], "class_name": "NSWhoseSpecifier.SubelementIdentifier", "typealias": [], "Vars": [], "class_type": "enum", "interface_list": [], "package_name": "foundation", "subclass_list": []}

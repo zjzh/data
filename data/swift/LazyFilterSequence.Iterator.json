@@ -1,0 +1,1 @@
+{"Methods": [], "Vars": [], "class_name": "LazyFilterSequence.Iterator", "interface_list": [], "class_description": "Note\nThis is the associated Iterator of LazyFilterSequence and LazyFilterCollection.\n", "class_inherit_list": [], "package_name": "swift", "subclass_list": [], "class_type": "struct", "typealias": []}

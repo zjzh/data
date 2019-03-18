@@ -1,0 +1,1 @@
+{"class_description": "", "Methods": [], "class_inherit_list": ["NSObject"], "class_name": "NSExtensionItem", "typealias": [], "Vars": [], "class_type": "class", "interface_list": ["CVarArg", "Equatable", "Hashable", "NSCopying", "NSSecureCoding"], "package_name": "foundation", "subclass_list": []}

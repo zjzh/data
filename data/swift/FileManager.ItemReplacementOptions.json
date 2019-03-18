@@ -1,0 +1,1 @@
+{"class_description": "These options are used by replaceItem(at:withItemAt:backupItemName:options:resultingItemURL:).\n", "Methods": [], "class_inherit_list": [], "class_name": "FileManager.ItemReplacementOptions", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["OptionSet"], "package_name": "foundation", "subclass_list": []}

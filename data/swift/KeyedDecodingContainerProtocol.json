@@ -1,0 +1,1 @@
+{"class_description": "Decoders should provide types conforming to UnkeyedDecodingContainer for their format.\n", "Methods": [], "class_inherit_list": [], "class_name": "KeyedDecodingContainerProtocol", "typealias": [], "Vars": [], "class_type": "protocol", "interface_list": [], "package_name": "swift", "subclass_list": []}

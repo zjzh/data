@@ -1,0 +1,1 @@
+{"package_name": "java.util", "subclass_list": [], "class_description": "Enum for BigDecimal formatting. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<Formatter.BigDecimalLayoutForm>"], "Methods": [], "class_name": "Formatter.BigDecimalLayoutForm", "Vars": null}

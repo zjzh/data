@@ -1,0 +1,1 @@
+{"class_description": "These error codes are for NSError objects in the domain NSURLErrorDomain.\n", "Methods": [], "class_inherit_list": [], "class_name": "URLError", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": [], "package_name": "foundation", "subclass_list": []}

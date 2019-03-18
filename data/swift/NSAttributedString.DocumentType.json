@@ -1,0 +1,1 @@
+{"class_description": "Use these strings as values for the documentType key in the document attributes dictionary. \n", "Methods": [], "class_inherit_list": [], "class_name": "NSAttributedString.DocumentType", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["Equatable", "Hashable", "RawRepresentable"], "package_name": "foundation", "subclass_list": []}

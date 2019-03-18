@@ -1,0 +1,1 @@
+{"package_name": "java.security.cert", "subclass_list": [], "class_description": "Various revocation options that can be specified for the revocation\n checking mechanism. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<PKIXRevocationChecker.Option>"], "Methods": [], "class_name": "PKIXRevocationChecker.Option", "Vars": null}

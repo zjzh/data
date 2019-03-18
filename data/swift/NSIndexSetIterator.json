@@ -1,0 +1,1 @@
+{"class_description": "You typically obtain an index set iterator by calling the makeIterator() function of an NSIndexSet instance.\n", "Methods": [], "class_inherit_list": [], "class_name": "NSIndexSetIterator", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["IteratorProtocol"], "package_name": "foundation", "subclass_list": []}

@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "An event modifier that qualifies how a Watchable is registered\n with a WatchService. This release does not define any standard modifiers. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "WatchEvent.Modifier", "Vars": null}

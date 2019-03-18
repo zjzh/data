@@ -1,0 +1,1 @@
+{"package_name": "java.nio.channels.spi", "subclass_list": [], "class_description": "Base implementation class for selection keys. This class tracks the validity of the key and implements cancellation. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["SelectionKey"], "Methods": [], "class_name": "AbstractSelectionKey", "Vars": null}

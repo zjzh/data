@@ -1,0 +1,1 @@
+{"package_name": "java.net", "subclass_list": [], "class_description": "Defines the standard families of communication protocols. ", "class_type": "enum", "typealias": [], "interface_list": ["ProtocolFamily"], "class_inherit_list": ["Enum<StandardProtocolFamily>"], "Methods": [], "class_name": "StandardProtocolFamily", "Vars": null}

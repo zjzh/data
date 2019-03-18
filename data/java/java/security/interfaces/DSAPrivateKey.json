@@ -1,0 +1,1 @@
+{"package_name": "java.security.interfaces", "subclass_list": [], "class_description": "The standard interface to a DSA private key. DSA (Digital Signature\n Algorithm) is defined in NIST's FIPS-186. ", "class_type": "interface", "typealias": [], "interface_list": ["DSAKey", "PrivateKey"], "class_inherit_list": [], "Methods": [], "class_name": "DSAPrivateKey", "Vars": null}

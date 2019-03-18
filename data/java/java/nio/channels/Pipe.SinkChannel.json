@@ -1,0 +1,1 @@
+{"package_name": "java.nio.channels", "subclass_list": [], "class_description": "A channel representing the writable end of a Pipe. ", "class_type": "class", "typealias": [], "interface_list": ["WritableByteChannel", "GatheringByteChannel"], "class_inherit_list": ["AbstractSelectableChannel"], "Methods": [], "class_name": "Pipe.SinkChannel", "Vars": null}

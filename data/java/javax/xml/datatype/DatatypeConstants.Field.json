@@ -1,0 +1,1 @@
+{"package_name": "javax.xml.datatype", "subclass_list": [], "class_description": "Type-safe enum class that represents six fields\n of the Duration class. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "DatatypeConstants.Field", "Vars": null}

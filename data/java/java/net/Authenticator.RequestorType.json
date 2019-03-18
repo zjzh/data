@@ -1,0 +1,1 @@
+{"package_name": "java.net", "subclass_list": [], "class_description": "The type of the entity requesting authentication. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<Authenticator.RequestorType>"], "Methods": [], "class_name": "Authenticator.RequestorType", "Vars": null}

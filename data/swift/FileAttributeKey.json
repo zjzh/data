@@ -1,0 +1,1 @@
+{"class_description": "These keys are used with the methods listed in the Getting and Setting Attributes topic of FileManager.\n", "Methods": [], "class_inherit_list": [], "class_name": "FileAttributeKey", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["Equatable", "Hashable", "RawRepresentable"], "package_name": "foundation", "subclass_list": []}

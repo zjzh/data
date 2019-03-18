@@ -1,0 +1,1 @@
+{"package_name": "java.net", "subclass_list": ["StandardProtocolFamily", "StandardProtocolFamily"], "class_description": "Represents a family of communication protocols. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "ProtocolFamily", "Vars": null}

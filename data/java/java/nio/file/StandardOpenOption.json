@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "Defines the standard open options. ", "class_type": "enum", "typealias": [], "interface_list": ["OpenOption"], "class_inherit_list": ["Enum<StandardOpenOption>"], "Methods": [], "class_name": "StandardOpenOption", "Vars": null}

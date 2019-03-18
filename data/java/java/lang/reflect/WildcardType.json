@@ -1,0 +1,1 @@
+{"package_name": "java.lang.reflect", "subclass_list": [], "class_description": "WildcardType represents a wildcard type expression, such as\n ?, ? extends Number, or ? super Integer. ", "class_type": "interface", "typealias": [], "interface_list": ["Type"], "class_inherit_list": [], "Methods": [], "class_name": "WildcardType", "Vars": null}

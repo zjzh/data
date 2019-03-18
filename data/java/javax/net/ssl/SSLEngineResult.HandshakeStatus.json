@@ -1,0 +1,1 @@
+{"package_name": "javax.net.ssl", "subclass_list": [], "class_description": "An SSLEngineResult enum describing the current\n handshaking state of this SSLEngine. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<SSLEngineResult.HandshakeStatus>"], "Methods": [], "class_name": "SSLEngineResult.HandshakeStatus", "Vars": null}

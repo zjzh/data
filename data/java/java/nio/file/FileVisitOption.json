@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "Defines the file tree traversal options. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<FileVisitOption>"], "Methods": [], "class_name": "FileVisitOption", "Vars": null}

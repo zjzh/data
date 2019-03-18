@@ -1,0 +1,1 @@
+{"package_name": "java.util.zip", "subclass_list": ["Adler32", "CRC32", "Adler32", "CRC32"], "class_description": "An interface representing a data checksum. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "Checksum", "Vars": null}

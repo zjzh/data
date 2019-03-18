@@ -1,0 +1,1 @@
+{"package_name": "javax.xml.xpath", "subclass_list": [], "class_description": " An XPathFactory instance can be used to create\n XPath objects. See newInstance(java.lang.String) for lookup mechanism. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "XPathFactory", "Vars": null}

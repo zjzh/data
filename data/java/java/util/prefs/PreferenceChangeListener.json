@@ -1,0 +1,1 @@
+{"package_name": "java.util.prefs", "subclass_list": [], "class_description": "A listener for receiving preference change events. ", "class_type": "interface", "typealias": [], "interface_list": ["EventListener"], "class_inherit_list": [], "Methods": [], "class_name": "PreferenceChangeListener", "Vars": null}

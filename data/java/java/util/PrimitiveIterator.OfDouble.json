@@ -1,0 +1,1 @@
+{"package_name": "java.util", "subclass_list": [], "class_description": "An Iterator specialized for double values. ", "class_type": "interface", "typealias": [], "interface_list": ["PrimitiveIterator<Double", "\u00a0DoubleConsumer>"], "class_inherit_list": [], "Methods": [], "class_name": "PrimitiveIterator.OfDouble", "Vars": null}

@@ -1,0 +1,1 @@
+{"Methods": [], "Vars": [], "class_name": "LazyDropWhileSequence.Iterator", "interface_list": [], "class_description": "This is the associated iterator for the LazyDropWhileSequence, LazyDropWhileCollection, and LazyDropWhileBidirectionalCollection types.\n", "class_inherit_list": [], "package_name": "swift", "subclass_list": [], "class_type": "struct", "typealias": []}

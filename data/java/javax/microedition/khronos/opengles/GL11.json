@@ -1,0 +1,1 @@
+{"package_name": "javax.microedition.khronos.opengles", "subclass_list": [], "class_description": "", "class_type": "interface", "typealias": [], "interface_list": ["GL10"], "class_inherit_list": [], "Methods": [], "class_name": "GL11", "Vars": null}

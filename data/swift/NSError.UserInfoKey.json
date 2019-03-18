@@ -1,0 +1,1 @@
+{"class_description": "", "Methods": [], "class_inherit_list": [], "class_name": "NSError.UserInfoKey", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["Equatable", "Hashable", "RawRepresentable"], "package_name": "foundation", "subclass_list": []}

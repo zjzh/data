@@ -1,0 +1,1 @@
+{"package_name": "java.util", "subclass_list": [], "class_description": "An Iterator specialized for long values. ", "class_type": "interface", "typealias": [], "interface_list": ["PrimitiveIterator<Long", "\u00a0LongConsumer>"], "class_inherit_list": [], "Methods": [], "class_name": "PrimitiveIterator.OfLong", "Vars": null}

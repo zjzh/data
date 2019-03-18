@@ -1,0 +1,1 @@
+{"package_name": "java.net", "subclass_list": [], "class_description": "A simple interface which provides a mechanism to map\n between a file name and a MIME type string. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "FileNameMap", "Vars": null}

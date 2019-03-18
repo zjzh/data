@@ -1,0 +1,1 @@
+{"package_name": "java.security", "subclass_list": [], "class_description": "Legacy security code; do not use. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "PrivilegedAction", "Vars": null}

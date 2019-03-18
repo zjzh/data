@@ -1,0 +1,1 @@
+{"package_name": "java.lang", "subclass_list": [], "class_description": "The Void class is an uninstantiable placeholder class to hold a\n reference to the Class object representing the Java keyword\n void. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "Void", "Vars": null}

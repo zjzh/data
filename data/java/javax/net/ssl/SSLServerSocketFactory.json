@@ -1,0 +1,1 @@
+{"package_name": "javax.net.ssl", "subclass_list": [], "class_description": "SSLServerSocketFactorys create\n SSLServerSockets. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["ServerSocketFactory"], "Methods": [], "class_name": "SSLServerSocketFactory", "Vars": null}

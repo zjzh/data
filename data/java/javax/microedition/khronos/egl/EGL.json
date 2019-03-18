@@ -1,0 +1,1 @@
+{"package_name": "javax.microedition.khronos.egl", "subclass_list": ["EGL10", "EGL11", "EGL10", "EGL11"], "class_description": "", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "EGL", "Vars": null}

@@ -1,0 +1,1 @@
+{"class_description": "These options are used with the range(of:options:in:) method.\n", "Methods": [], "class_inherit_list": [], "class_name": "NSData.SearchOptions", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["OptionSet"], "package_name": "foundation", "subclass_list": []}

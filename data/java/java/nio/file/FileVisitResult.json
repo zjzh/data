@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file", "subclass_list": [], "class_description": "The result type of a FileVisitor. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<FileVisitResult>"], "Methods": [], "class_name": "FileVisitResult", "Vars": null}

@@ -1,0 +1,1 @@
+{"class_description": "These constants are used by the urls(for:in:) and url(for:in:appropriateFor:create:) methods of FileManager.\n", "Methods": [], "class_inherit_list": [], "class_name": "FileManager.SearchPathDomainMask", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["OptionSet"], "package_name": "foundation", "subclass_list": []}

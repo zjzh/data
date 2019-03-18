@@ -1,0 +1,1 @@
+{"class_description": "A destination app uses an object that conforms to this protocol to consume pasted or dropped items.\n", "Methods": [], "class_inherit_list": ["NSObjectProtocol"], "class_name": "NSItemProviderReading", "typealias": [], "Vars": [], "class_type": "protocol", "interface_list": [], "package_name": "foundation", "subclass_list": []}

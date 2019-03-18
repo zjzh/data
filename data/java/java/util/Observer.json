@@ -1,0 +1,1 @@
+{"package_name": "java.util", "subclass_list": [], "class_description": "A class can implement the Observer interface when it\n wants to be informed of changes in observable objects. ", "class_type": "interface", "typealias": [], "interface_list": [""], "class_inherit_list": [], "Methods": [], "class_name": "Observer", "Vars": null}

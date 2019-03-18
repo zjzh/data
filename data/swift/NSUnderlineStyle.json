@@ -1,0 +1,1 @@
+{"Methods": [], "Vars": [], "class_name": "NSUnderlineStyle", "interface_list": ["OptionSet"], "class_description": "The style, pattern, and optionally by-word mask are OR'd together to produce the value for underlineStyle and strikethroughStyle.\n", "class_inherit_list": [], "package_name": "foundation", "subclass_list": [], "class_type": "struct", "typealias": []}

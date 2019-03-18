@@ -1,0 +1,1 @@
+{"package_name": "javax.xml.parsers", "subclass_list": [], "class_description": "Defines a factory API that enables applications to obtain a\n parser that produces DOM object trees from XML documents. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "DocumentBuilderFactory", "Vars": null}

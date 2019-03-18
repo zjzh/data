@@ -1,0 +1,1 @@
+{"class_description": "These values can be associated with the URLResourceKey key fileProtectionKey.\n", "Methods": [], "class_inherit_list": [], "class_name": "URLFileProtection", "typealias": [], "Vars": [], "class_type": "struct", "interface_list": ["Equatable", "Hashable", "RawRepresentable"], "package_name": "foundation", "subclass_list": []}

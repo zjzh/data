@@ -1,0 +1,1 @@
+{"class_description": "Delegates of NSMachPort objects optionally adopt this protocol.\n", "Methods": [], "class_inherit_list": ["PortDelegate"], "class_name": "NSMachPortDelegate", "typealias": [], "Vars": [], "class_type": "protocol", "interface_list": [], "package_name": "foundation", "subclass_list": []}

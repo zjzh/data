@@ -1,0 +1,1 @@
+{"package_name": "java.sql", "subclass_list": [], "class_description": " The class that defines the constants that are used to identify generic\n SQL types, called JDBC types. This class is never instantiated. ", "class_type": "class", "typealias": [], "interface_list": [""], "class_inherit_list": ["Object"], "Methods": [], "class_name": "Types", "Vars": null}

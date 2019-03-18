@@ -1,0 +1,1 @@
+{"package_name": "java.nio.file.attribute", "subclass_list": [], "class_description": "A typesafe enumeration of the access control entry types. ", "class_type": "enum", "typealias": [], "interface_list": [""], "class_inherit_list": ["Enum<AclEntryType>"], "Methods": [], "class_name": "AclEntryType", "Vars": null}
