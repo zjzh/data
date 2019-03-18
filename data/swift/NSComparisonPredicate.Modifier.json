@@ -1,1 +1,1 @@
-{"class_description": "", "Methods": [], "class_inherit_list": [], "class_name": "NSComparisonPredicate.Modifier", "typealias": [], "Vars": [], "class_type": "enum", "interface_list": [], "package_name": "foundation", "subclass_list": []}
+{"package_name": "foundation", "subclass_list": [], "class_description": "", "class_type": "enum", "typealias": [], "interface_list": [], "class_inherit_list": [], "Methods": [], "class_name": "NSComparisonPredicate.Modifier", "Vars": []}

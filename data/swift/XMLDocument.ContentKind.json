@@ -1,1 +1,1 @@
-{"class_description": "For possible values, see Document Content Types.\n", "Methods": [], "class_inherit_list": [], "class_name": "XMLDocument.ContentKind", "typealias": [], "Vars": [], "class_type": "enum", "interface_list": [], "package_name": "foundation", "subclass_list": []}
+{"subclass_list": [], "typealias": [], "class_inherit_list": [], "Methods": [], "class_type": "enum", "class_name": "XMLDocument.ContentKind", "Vars": [], "interface_list": [], "class_description": "For possible values, see Document Content Types.\n", "package_name": "foundation"}
