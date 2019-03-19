@@ -1,0 +1,1 @@
+{"father":[],"name":"Closeable","class":["InputStream","OutputStream","PrintStream","RandomAccessFile","Reader","Writer","DatagramSocket","ServerSocket","Socket","URLClassLoader","Selector","FileSystem","Formatter","Scanner","ZipFile"]}

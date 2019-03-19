@@ -1,0 +1,1 @@
+{"father":[],"name":"AlgorithmParameterSpec","class":["DSAParameterSpec","ECGenParameterSpec","ECParameterSpec","MGF1ParameterSpec","PSSParameterSpec","RSAKeyGenParameterSpec","DHGenParameterSpec","DHParameterSpec","GCMParameterSpec","IvParameterSpec","OAEPParameterSpec","PBEParameterSpec","RC2ParameterSpec","RC5ParameterSpec"]}

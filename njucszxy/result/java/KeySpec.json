@@ -1,0 +1,1 @@
+{"father":[],"name":"KeySpec","class":["DSAPrivateKeySpec","DSAPublicKeySpec","ECPrivateKeySpec","ECPublicKeySpec","EncodedKeySpec","RSAPrivateKeySpec","RSAPublicKeySpec","DESedeKeySpec","DESKeySpec","DHPrivateKeySpec","DHPublicKeySpec","PBEKeySpec","SecretKeySpec"]}
