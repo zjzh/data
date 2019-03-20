@@ -1,1 +1,1 @@
-{"father":["BidirectionalCollection","Comparable","ExpressibleByStringInterpolation","Hashable","LosslessStringConvertible","TextOutputStream","TextOutputStreamable"],"name":"StringProtocol","class":[]}
+{"father":["BidirectionalCollection","Comparable","ExpressibleByStringInterpolation","Hashable","LosslessStringConvertible","TextOutputStream","TextOutputStreamable"],"name":"StringProtocol","class":["String","Substring"]}

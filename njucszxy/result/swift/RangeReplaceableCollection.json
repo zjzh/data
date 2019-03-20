@@ -1,1 +1,1 @@
-{"father":["Collection"],"name":"RangeReplaceableCollection","class":[]}
+{"father":["Collection"],"name":"RangeReplaceableCollection","class":["Array","ArraySlice","ContiguousArray","Data","Slice","String","Substring"]}

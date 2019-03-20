@@ -1,1 +1,1 @@
-{"father":["BinaryInteger","LosslessStringConvertible"],"name":"FixedWidthInteger","class":[]}
+{"father":["BinaryInteger","LosslessStringConvertible"],"name":"FixedWidthInteger","class":["Int","Int16","Int32","Int64","Int8","UInt","UInt16","UInt32","UInt64","UInt8"]}

@@ -1,1 +1,1 @@
-{"father":[],"name":"RangeExpression","class":[]}
+{"father":[],"name":"RangeExpression","class":["ClosedRange","PartialRangeFrom","PartialRangeThrough","PartialRangeUpTo","Range"]}

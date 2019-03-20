@@ -1,1 +1,1 @@
-{"father":["Equatable"],"name":"Comparable","class":[]}
+{"father":["Equatable"],"name":"Comparable","class":["AnyIndex","Character","Date","DateInterval","Decimal","IndexPath","Measurement","ObjectIdentifier","String","Unicode.CanonicalCombiningClass","Unicode.Scalar","UnsafeMutablePointer","UnsafeMutableRawPointer","UnsafePointer","UnsafeRawPointer","CGFloat","Double","Float","Float80"]}

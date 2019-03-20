@@ -1,1 +1,1 @@
-{"father":["Collection"],"name":"MutableCollection","class":[]}
+{"father":["Collection"],"name":"MutableCollection","class":["Array","ArraySlice","CollectionOfOne","ContiguousArray","Data","Dictionary.Values","EmptyCollection","IndexPath","Slice","UnsafeMutableBufferPointer","UnsafeMutableRawBufferPointer"]}

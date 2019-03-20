@@ -1,1 +1,1 @@
-{"father":[],"name":"ExpressibleByArrayLiteral","class":["NSArray","NSCountedSet","NSMutableArray","NSMutableOrderedSet","NSMutableSet","NSOrderedSet","NSSet"]}
+{"father":[],"name":"ExpressibleByArrayLiteral","class":["Array","ArraySlice","ContiguousArray","IndexPath","NSArray","NSCountedSet","NSMutableArray","NSMutableOrderedSet","NSMutableSet","NSOrderedSet","NSSet","Set"]}

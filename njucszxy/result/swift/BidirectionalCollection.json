@@ -1,1 +1,1 @@
-{"father":["Collection"],"name":"BidirectionalCollection","class":[]}
+{"father":["Collection"],"name":"BidirectionalCollection","class":["AnyBidirectionalCollection","ClosedRange","DefaultIndices","IndexSet","IndexSet.RangeView","Range","ReversedCollection","Slice","AnyRandomAccessCollection","Array","ArraySlice","CollectionOfOne","ContiguousArray","Data","EmptyCollection","IndexPath","KeyValuePairs","Repeated","Unicode.Scalar.UTF16View","UnsafeBufferPointer","UnsafeMutableBufferPointer","String","Substring"]}

@@ -1,1 +1,1 @@
-{"father":[],"name":"TextOutputStreamable","class":[]}
+{"father":[],"name":"TextOutputStreamable","class":["Character","String","Substring","Unicode.Scalar"]}

@@ -1,1 +1,1 @@
-{"father":[],"name":"ExpressibleByFloatLiteral","class":["NSDecimalNumber","NSNumber"]}
+{"father":[],"name":"ExpressibleByFloatLiteral","class":["CGFloat","Double","Float","Float80","Decimal","NSDecimalNumber","NSNumber"]}

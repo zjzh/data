@@ -1,1 +1,1 @@
-{"father":["ExpressibleByExtendedGraphemeClusterLiteral"],"name":"ExpressibleByStringLiteral","class":["NSMutableString","NSString"]}
+{"father":["ExpressibleByExtendedGraphemeClusterLiteral"],"name":"ExpressibleByStringLiteral","class":["NSMutableString","NSString","StaticString","String","Substring"]}

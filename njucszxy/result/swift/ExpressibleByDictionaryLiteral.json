@@ -1,1 +1,1 @@
-{"father":[],"name":"ExpressibleByDictionaryLiteral","class":["NSDictionary","NSMutableDictionary"]}
+{"father":[],"name":"ExpressibleByDictionaryLiteral","class":["Dictionary","KeyValuePairs","NSDictionary","NSMutableDictionary"]}

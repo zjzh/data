@@ -1,1 +1,1 @@
-{"father":["CustomStringConvertible","Hashable","Numeric","Strideable"],"name":"BinaryInteger","class":[]}
+{"father":["CustomStringConvertible","Hashable","Numeric","Strideable"],"name":"BinaryInteger","class":["Int","Int16","Int32","Int64","Int8","UInt","UInt16","UInt32","UInt64","UInt8"]}

@@ -1,1 +1,1 @@
-{"father":[],"name":"ExpressibleByUnicodeScalarLiteral","class":["NSMutableString","NSString"]}
+{"father":[],"name":"ExpressibleByUnicodeScalarLiteral","class":["Character","StaticString","Substring","NSMutableString","NSString","String","StaticString","Substring","Unicode.Scalar"]}

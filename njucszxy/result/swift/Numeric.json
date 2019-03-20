@@ -1,1 +1,1 @@
-{"father":["Equatable","ExpressibleByIntegerLiteral"],"name":"Numeric","class":[]}
+{"father":["Equatable","ExpressibleByIntegerLiteral"],"name":"Numeric","class":["CGFloat","Decimal"]}

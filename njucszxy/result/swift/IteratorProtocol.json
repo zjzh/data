@@ -1,1 +1,1 @@
-{"father":[],"name":"IteratorProtocol","class":[]}
+{"father":[],"name":"IteratorProtocol","class":["AnyIterator","IndexingIterator","IteratorSequence","NSFastEnumerationIterator","NSIndexSetIterator","StrideThroughIterator","StrideToIterator","UnfoldSequence"]}

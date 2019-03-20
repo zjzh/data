@@ -1,1 +1,1 @@
-{"father":["CustomStringConvertible","Decodable","Encodable","ExpressibleByArrayLiteral","Hashable","SIMDStorage"],"name":"SIMD","class":[]}
+{"father":["CustomStringConvertible","Decodable","Encodable","ExpressibleByArrayLiteral","Hashable","SIMDStorage"],"name":"SIMD","class":["SIMD16","SIMD2","SIMD3","SIMD32","SIMD4","SIMD64","SIMD8","SIMDMask"]}

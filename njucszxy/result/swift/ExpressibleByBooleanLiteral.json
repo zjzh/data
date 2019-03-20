@@ -1,1 +1,1 @@
-{"father":[],"name":"ExpressibleByBooleanLiteral","class":["NSDecimalNumber","NSNumber"]}
+{"father":[],"name":"ExpressibleByBooleanLiteral","class":["Bool","NSDecimalNumber","NSNumber"]}

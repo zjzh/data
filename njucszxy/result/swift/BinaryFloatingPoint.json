@@ -1,1 +1,1 @@
-{"father":["ExpressibleByFloatLiteral","FloatingPoint"],"name":"BinaryFloatingPoint","class":[]}
+{"father":["ExpressibleByFloatLiteral","FloatingPoint"],"name":"BinaryFloatingPoint","class":["CGFloat","Double","Float","Float80"]}

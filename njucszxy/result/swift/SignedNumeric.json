@@ -1,1 +1,1 @@
-{"father":["Numeric"],"name":"SignedNumeric","class":[]}
+{"father":["Numeric"],"name":"SignedNumeric","class":["CGFloat","Decimal"]}

@@ -1,1 +1,1 @@
-{"father":["Equatable","ExpressibleByArrayLiteral"],"name":"SetAlgebra","class":[]}
+{"father":["Equatable","ExpressibleByArrayLiteral"],"name":"SetAlgebra","class":["CharacterSet","IndexSet","Set"]}

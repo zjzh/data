@@ -1,1 +1,1 @@
-{"father":["CustomDebugStringConvertible","CustomStringConvertible","Hashable"],"name":"ReferenceConvertible","class":[]}
+{"father":["CustomDebugStringConvertible","CustomStringConvertible","Hashable"],"name":"ReferenceConvertible","class":["AffineTransform","Calendar","CharacterSet","Data","Date","DateComponents","DateInterval","IndexPath","IndexSet","Locale","Measurement","Notification","PersonNameComponents","TimeZone","URL","URLComponents","URLQueryItem","URLRequest","UUID"]}

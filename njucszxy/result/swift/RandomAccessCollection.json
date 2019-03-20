@@ -1,1 +1,1 @@
-{"father":["BidirectionalCollection"],"name":"RandomAccessCollection","class":[]}
+{"father":["BidirectionalCollection"],"name":"RandomAccessCollection","class":["AnyRandomAccessCollection","Array","ArraySlice","ClosedRange","CollectionOfOne","ContiguousArray","Data","EmptyCollection","IndexPath","KeyValuePairs","Range","Repeated","Unicode.Scalar.UTF16View","UnsafeBufferPointer","UnsafeMutableBufferPointer"]}

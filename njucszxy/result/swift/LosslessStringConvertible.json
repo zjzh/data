@@ -1,1 +1,1 @@
-{"father":["CustomStringConvertible"],"name":"LosslessStringConvertible","class":[]}
+{"father":["CustomStringConvertible"],"name":"LosslessStringConvertible","class":["Bool","Double","Float","Float80","Substring","Unicode.Scalar"]}

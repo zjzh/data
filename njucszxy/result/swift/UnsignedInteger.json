@@ -1,1 +1,1 @@
-{"father":["BinaryInteger"],"name":"UnsignedInteger","class":[]}
+{"father":["BinaryInteger"],"name":"UnsignedInteger","class":["UInt","UInt16","UInt32","UInt64","UInt8"]}

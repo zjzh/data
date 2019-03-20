@@ -1,1 +1,1 @@
-{"father":["Collection","LazySequenceProtocol"],"name":"LazyCollectionProtocol","class":[]}
+{"father":["Collection","LazySequenceProtocol"],"name":"LazyCollectionProtocol","class":["Slice"]}

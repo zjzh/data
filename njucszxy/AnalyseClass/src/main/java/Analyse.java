@@ -52,7 +52,7 @@ public class Analyse {
             JSONArray inter = jsonObject.getJSONArray("interface_list");
             for(int i = 0;i < inter.length();i++)
                 element.interfaceList.add((String) inter.get(i));
-            if(element.classType.equals("class"))
+            if(element.classType.equals("class") || element.classType.equals("struct"))
                 classList.add(element);
             else if(element.classType.equals("interface") || element.classType.equals("protocol"))
                 interfaceList.add(element);
@@ -78,6 +78,9 @@ public class Analyse {
     //寻找并存储接口们的实现类至结果单元
     public void getClassRealized()
     {
+        //测试
+        for(int i = 0;i < classList.size();i++)
+            System.out.println(classList.get(i).className + " : " + classList.get(i).interfaceList);
         //使用线性表实现的接口继承树
         vector = new int[interfaceList.size()];
         //计算继承关系，将数组每个项填充为其父接口在数组中的下标，若没有父接口则设为-1
@@ -116,7 +119,10 @@ public class Analyse {
                     System.out.println("add:" + className);
                 }
             }
-            System.out.println("Call:" + i +"," + vector[i]);
+            if(vector[i] != -1)
+                System.out.println("Call:" + interfaceName +"," + interfaceList.get(vector[i]).className);
+            else
+                System.out.println("Call:" + interfaceName +",null");
             //通知自己的父接口更新实现类信息
             callUpdate(i,vector[i]);
         }

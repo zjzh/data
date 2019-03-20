@@ -1,1 +1,1 @@
-{"father":["Comparable"],"name":"Strideable","class":[]}
+{"father":["Comparable"],"name":"Strideable","class":["CGFloat","Decimal","Double","Float","Float80","UnsafeMutablePointer","UnsafeMutableRawPointer","UnsafePointer","UnsafeRawPointer"]}
