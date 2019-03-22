@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from functools import reduce
 from sklearn.metrics.pairwise import cosine_similarity
 import os,copy
 import sys,json
@@ -9,11 +10,12 @@ sys.path.append("..")
 from sklearn import feature_extraction
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
-from utils import preprocess_sen_new,load_json,split_Uppercase
+from utils import preprocess_sen_new,load_json,split_Uppercase,remove_stopwords,dump_json
 import numpy as np
 def get_all_class_path(dir_parh):
     count_name_dict={}
     class_name_list={}
+#    class_index_name={}
     class_count=0 
     path_list=[]
     for root,j,k in os.walk(dir_parh):
@@ -25,6 +27,7 @@ def get_all_class_path(dir_parh):
                 continue
             class_name_list[k_each.split(".")[0]]=class_count
             count_name_dict[class_count]=k_each.split(".")[0]
+#            class_index_name[]=
             class_count=class_count+1
             if root[-1]=="/":
                 path_list.append(root+k_each)
@@ -51,7 +54,7 @@ def extrac_class_des(path,is_class_name_des=True,is_method_des=False,is_para_des
     if is_method_des:#对每个方法提取相应的单元
         method_list=json_data["Methods"]
         for i,method in enumerate(method_list):
-            class_all_des=class_all_des+" "+method["method_description"]
+            class_all_des=class_all_des+" "+method["method_description"]+" "+split_Uppercase(method["method_name"])
             if is_return_des:
 #                print("len: ",method['return_value']['return_description'])
                 if len(method['return_value']['return_description'])>0:
@@ -62,6 +65,7 @@ def extrac_class_des(path,is_class_name_des=True,is_method_des=False,is_para_des
                         class_all_des=class_all_des+" "+para["param_description"]
                         if is_signature:
                             class_all_des=class_all_des+" "+" ".join(para["param_name"])
+#    print(class_all_des)
     return class_all_des
 '''
 对若干文档，TF-IDF计算
@@ -92,6 +96,36 @@ def Tfidf(corpus) :
 def cos_sim(v1, v2):
     return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
 '''
+获得每篇文档的top_k个关键词    
+将所有文档的关键词进行合并
+获得每篇文档的向量表示
+生成相似度
+
+'''
+def get_all_key_words(weight,top_k):
+    index_sort=copy.deepcopy(np.argsort(weight, axis=1)[:,::-1][:,:top_k])
+    print(weight.shape)
+    sigle_words_index=list(set(index_sort.flatten()))
+#    sigle_words_index=list(set(reduce(lambda x,y: x+y, index_sort)))
+#    for 
+    modify_weight=weight[:,sigle_words_index] 
+    print(modify_weight.shape)
+    return modify_weight
+#计算两个类的余弦相似矩阵
+def cos_two_matrixs(matrix1,matrix2):
+    import scipy.spatial as sp  
+    return 1 - sp.distance.cdist(matrix1, matrix2, 'cosine')
+def modify_cos_by_keywords(cos_matrix,index_filter):
+    return new_cos_matrix
+#获得最相近的k个类
+def get_topk_sim_class(top_k_class,sim_matrix):
+    index_sort=copy.deepcopy(np.argsort(sim_matrix, axis=1)[:,::-1][:,:top_k_class])
+    all_class_cos=[]
+    for i,sim in enumerate(sim_matrix):
+        cos_list=list(map(lambda x:sim[x] ,index_sort[i]))
+        all_class_cos.append(cos_list)
+    return index_sort,all_class_cos
+'''
 weight 每一行是一个文档   每一行的内容是每个词的tf-idf
 index_sort 为每个类提取k个最大的tf-idf值
 java_swift_words 存放重叠词的下标
@@ -99,7 +133,7 @@ java_swift_num 存放重叠的词的数目
 java_swift_cos #存储向量的cos近似度
 
 java_swift_map_index 相似度从大到小存储 每个java类对应的swift的类 下标
-java_swift_map_words_index 按相似度从大到小存储 每个java类对应的swift的类的重叠词的下标
+java_swift_map_words_index 按相似度从大到小存储 每个java类对应的swift的类的重叠词的下标 每个元素是一个列表 列表的每个元素
 
 1.为每个文档提取k个关键词 index_sort(按tf-idf从大到小)
 2.计算重叠的词的数目和重叠词的余弦值
@@ -158,12 +192,18 @@ if __name__ == "__main__" :
     swift_class_name_list={}#存放tf-idf的每一行下标对应的类名  下标索引
     java_count_name_dict={}
     swift_count_name_dict={}
-    java_dir_path="../android_api_doc_new/json_2/"#test
-    swift_dir_path="../ios_api_doc/newest/all/"
+    java_dir_path="../android_api_doc_new/json_3_class_type/"#test
+    swift_dir_path="../ios_api_doc/newest/all_2/"
     all_path_list,java_class_name_list,java_count_name_dict=get_all_class_path(java_dir_path)
     java_class_num=len(all_path_list)
+    print("java_class_num: ",java_class_num)
     swift_path_list,swift_class_name_list,swift_count_name_dict=get_all_class_path(swift_dir_path)
+    dump_json("../data/java_class_index.json",java_class_name_list)
+    dump_json("../data/swift_class_index.json",swift_class_name_list)
+    sim_matrixs=np.load("../data/tf_idf_class_map.npy")
+    print("string map to string: ",sim_matrixs[java_class_name_list["String"]][swift_class_name_list["NSString"]])
     all_path_list.extend(swift_path_list)
+    print("all_class_num: ",len(all_path_list))
     
     #制作文档集
     all_class_corpus=[]#每个元素是一个类
@@ -172,44 +212,71 @@ if __name__ == "__main__" :
         sen= extrac_class_des(class_info_path,True,True,True,True,True)
 #        print("sen: ",sen)
         sen=preprocess_sen_new(sen,True)
-#        print("sen: ",sen)
+#        print("sen_pre: ",sen)
         lancaster_stemmer = LancasterStemmer()  
         input_str=word_tokenize(sen)
-        sen=" ".join([lancaster_stemmer.stem(value) for value in input_str])
+        sen=[lancaster_stemmer.stem(value) for value in input_str]
+        sen=" ".join(remove_stopwords(sen))
 #        print("sen: ",sen)
 #        if i>2:
 #            break
         all_class_corpus.append(sen)
 #    all_class_corpus=["Swift makes it easy to create arrays in your code using an array literal: simply surround a comma-separated list of values with square brackets. Without any other information, Swift creates an array that includes the specified values, automatically inferring the array’s Element type."
-#                      ,"Arrays are one of the most commonly used data types in an app. You use arrays to organize your app’s data. Specifically, you use the Array type to hold elements of a single type, the array’s Element type. An array can store any kind of elements—from integers to strings to classes."]
-##    for class_1 in all_class_corpus:
-##        print("class: ",class_1)
+ #                      ,"Arrays are one of the most commonly used data types in an app. You use arrays to organize your app’s data. Specifically, you use the Array type to hold elements of a single type, the array’s Element type. An array can store any kind of elements—from integers to strings to classes."]
+#    for class_1 in all_class_corpus:
+#        print("class: ",class_1)
+#        break
     weight,word=Tfidf(all_class_corpus)
-    
+   
     top_k=10
-#    map_java_list_name=["String"]
+    filter_weight=get_all_key_words(weight,top_k)
+    sim_matrixs=cos_two_matrixs(np.array(filter_weight[:java_class_num]),np.array(filter_weight[java_class_num:]))
+    np.save("../data/tf_idf_class_map.npy",sim_matrixs)
     map_java_list_name=["String","CharSequence","StringBuffer","StringBuilder","File","FileInputStream","FileOutputStream","ArrayList","LinkedList","Hashtable","HashSet"]
-    map_java_to_swift=[]
-    for i,value in enumerate(map_java_list_name):
-        map_java_to_swift.append(list(weight[java_class_name_list[value]]))
-    java_key_words_index,java_swift_map_index,java_swift_map_words_index=extract_keywords(top_k,np.array(map_java_to_swift),np.array(weight[java_class_num:]))
-    
-    
-    dir_class_map_path="../data/class_map/"
-    like_class_num=20
-    for i,file_name in enumerate(map_java_list_name):
-        print("write file : ",file_name)
-        with open(dir_class_map_path+file_name+".txt", 'w',encoding='utf-8', errors='ignore') as f_w: 
-            java_key_words=[]
-            for index in java_key_words_index[i]:
-                java_key_words.append(word[index])
-            f_w.write(" ".join(java_key_words)+"\n")
-            for j in range(like_class_num):  
-                swift_index=java_swift_map_index[i][j]
-                key_words_list=[]
-                for key_word_index in java_swift_map_words_index[i][j]:
-#                    print("java_swift_map_words_index[i][j]: ",java_swift_map_words_index[i][j],key_word_index)
-                    key_words_list.append(word[key_word_index])
-                f_w.write(swift_count_name_dict[swift_index]+": "+" ".join(key_words_list)+"\n")
+
+    top_k_class=10
+    #获得与java最相近的10个swift 类
+    index_sort,all_class_cos=get_topk_sim_class(top_k_class,sim_matrixs)
+    #获得最相近的top_k_class的名字
+    dir_class_map_path="../data/class_map_all_keywords/"
+    java_index_list=list(map(lambda x: java_class_name_list[x],map_java_list_name ))
+    swift_class_map_name_list=[]
+    for i,each_java in enumerate(java_index_list):
+        swift_class_map_name=list(map(lambda x: swift_count_name_dict[x],index_sort[each_java]))
+        swift_class_map_name_list.append(swift_class_map_name)
+        print("class: ",map_java_list_name[i],swift_class_map_name)
+        print("sim_cos: ",all_class_cos[i])
+        with open(dir_class_map_path+map_java_list_name[i]+".txt", 'w',encoding='utf-8', errors='ignore') as f_w: 
+            f_w.write(map_java_list_name[i]+"\n")
+            for j in range(len(swift_class_map_name)):
+                f_w.write(str(swift_class_map_name[j])+" "+str(all_class_cos[i][j])+"\n")
+                
+
 #            f_w.close()
-#    print("all_path_list: ",all_path_list)
+#    map_java_list_name=java_class_name_list
+##    map_java_list_name=["String","CharSequence","StringBuffer","StringBuilder","File","FileInputStream","FileOutputStream","ArrayList","LinkedList","Hashtable","HashSet"]
+#    map_java_to_swift=[]
+#    for i,value  in enumerate(map_java_list_name):
+#        map_java_to_swift.append(list(weight[java_class_name_list[value]]))
+#    java_key_words_index,java_swift_map_index,java_swift_map_words_index=extract_keywords(top_k,np.array(map_java_to_swift),np.array(weight[java_class_num:]))
+##    
+#    
+#    dir_class_map_path="../data/class_map/"
+#    like_class_num=20
+#    for i,file_name in enumerate(map_java_list_name):
+#        print("write file : ",file_name)
+#        with open(dir_class_map_path+file_name+".txt", 'w',encoding='utf-8', errors='ignore') as f_w: 
+#            java_key_words=[]
+#            for index in java_key_words_index[i]:
+#                java_key_words.append(word[index])
+#            f_w.write(" ".join(java_key_words)+"\n")
+#            for j in range(like_class_num):  
+#                swift_index=java_swift_map_index[i][j]
+#                key_words_list=[]
+#                for key_word_index in java_swift_map_words_index[i][j]:
+##                    print("java_swift_map_words_index[i][j]: ",java_swift_map_words_index[i][j],key_word_index)
+#                    key_words_list.append(word[key_word_index])
+#                f_w.write(swift_count_name_dict[swift_index]+": "+" ".join(key_words_list)+"\n")
+##            f_w.close()
+##    print("all_path_list: ",all_path_list)
+

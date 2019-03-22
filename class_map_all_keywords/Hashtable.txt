@@ -1,0 +1,11 @@
+Hashtable
+Int8 nan
+UInt16 nan
+NSMapTableKeyCallBacks 0.680322099184
+NSMapTable 0.39550601055
+NSUbiquitousKeyValueStore 0.372868533313
+UserDefaults 0.369216451506
+NSMapTableValueCallBacks 0.300930478888
+NSKeyedArchiver 0.298103089679
+NSKeyedUnarchiver 0.293040566114
+URLResourceKey 0.287096464443

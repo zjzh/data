@@ -1,0 +1,11 @@
+String
+Int8 nan
+UInt16 nan
+NSString 0.284320486011
+String 0.233514585723
+NSMutableString 0.231036382031
+StringProtocol 0.226350918222
+NSCharacterSet 0.209862614553
+NSMutableCharacterSet 0.205492960469
+NSIndexSpecifier 0.204587330152
+NSIndexSet 0.201867377459

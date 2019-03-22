@@ -1,0 +1,11 @@
+CharSequence
+Int8 nan
+UInt16 nan
+Sequence 0.686363355942
+UnfoldSequence 0.674033828912
+FlattenSequence 0.61441192175
+AnySequence 0.532208335445
+AnyIterator 0.414050351074
+IndexingIterator 0.400996606049
+Zip2Sequence 0.250631507462
+AnyCollection 0.238609117468

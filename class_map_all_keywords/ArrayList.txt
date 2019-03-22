@@ -1,0 +1,11 @@
+ArrayList
+UInt16 nan
+Int8 nan
+Array 0.722146912504
+ArraySlice 0.473132620699
+ContiguousArray 0.426641197092
+IndexPath 0.358123629548
+EmptyCollection 0.338212211124
+DefaultIndices 0.320035583766
+UnsafeMutableBufferPointer 0.229592552114
+CollectionOfOne 0.221234009278

@@ -1,0 +1,11 @@
+StringBuilder
+UInt16 nan
+Int8 nan
+String 0.395694983179
+NSIndexPath 0.352750564348
+NSIndexSpecifier 0.3269164889
+NSIndexSet 0.268322886536
+NSMutableIndexSet 0.261501800119
+IndexSet 0.255476282971
+NSIndexSetIterator 0.248518067504
+NSMutableCharacterSet 0.23047064625

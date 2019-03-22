@@ -1,0 +1,11 @@
+LinkedList
+UInt16 nan
+Int8 nan
+Array 0.758301041261
+ArraySlice 0.524363231317
+ContiguousArray 0.509529176494
+IndexPath 0.428302772714
+EmptyCollection 0.320309167443
+AnyRandomAccessCollection 0.31520979908
+AnyBidirectionalCollection 0.305432803686
+DefaultIndices 0.301599644642

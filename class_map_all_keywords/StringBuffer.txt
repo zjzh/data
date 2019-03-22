@@ -1,0 +1,11 @@
+StringBuffer
+Int8 nan
+UInt16 nan
+String 0.470274389079
+NSString 0.417540391276
+UnsafeMutableRawBufferPointer 0.414002440233
+UnsafeRawBufferPointer 0.405848840355
+Data 0.353824796785
+StringProtocol 0.331768707364
+NSMutableString 0.301416630408
+IndexSet 0.283089890808
