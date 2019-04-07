@@ -1,0 +1,48 @@
+{
+  "HashSet []  init ( [('int', ['initialCapacity'])] )": [
+    "Set []  init ( [('Int', ['minimumCapacity'])] )",
+    "NSCountedSet []  init ( [('Int', ['capacity', 'numItems'])] )"
+  ],
+  "HashSet ['int']  size (  )": [
+    "Set ['Int']  count (  )",
+    "NSSet ['Int']  count (  )",
+    "NSOrderedSet ['Int']  count (  )"
+  ],
+  "HashSet ['boolean']  isEmpty (  )": [
+    "Set ['Bool']  isEmpty (  )"
+  ],
+  "HashSet ['Object']  clone (  )": null,
+  "HashSet ['boolean']  add ( [('Object', ['e'])] )": [
+    "NSCountedSet []  add ( [('Any', ['object'])] )",
+    "NSMutableSet []  add ( [('Any', ['object'])] )"
+  ],
+  "HashSet []  clear (  )": [
+    "Set []  removeAll ( [('Bool', ['keepingCapacity', 'keepCapacity'])] )",
+    "NSMutableSet []  removeAllObjects (  )"
+  ],
+  "HashSet []  init (  )": [
+    "Set []  init (  )"
+  ],
+  "HashSet ['Iterator']  iterator (  )": [
+    "NSOrderedSet ['NSFastEnumerationIterator']  makeIterator (  )",
+    "NSSet ['NSFastEnumerationIterator']  makeIterator (  )",
+    "Set ['Set.Iterator']  makeIterator (  )"
+  ],
+  "HashSet ['boolean']  contains ( [('Object', ['o'])] )": [
+    "Set ['Bool']  contains ( [('Element', ['member'])] )",
+    "NSOrderedSet ['Bool']  contains ( [('Any', ['object'])] )",
+    "NSSet ['Bool']  contains ( [('Any', ['anObject'])] )"
+  ],
+  "HashSet ['Spliterator']  spliterator (  )": null,
+  "HashSet []  init ( [('Collection', ['c'])] )": [
+    "NSSet []  init ( [('Set', ['set'])] )",
+    "Set []  init ( [('Sequence', ['sequence'])] )",
+    "NSOrderedSet []  init ( [('Set', ['set'])] )"
+  ],
+  "HashSet []  init ( [('int', ['initialCapacity']), ('float', ['loadFactor'])] )": null,
+  "HashSet ['boolean']  remove ( [('Object', ['o'])] )": [
+    "NSMutableSet []  remove ( [('Any', ['object'])] )",
+    "NSCountedSet []  remove ( [('Any', ['object'])] )",
+    "Set ['Element']  remove ( [('Element', ['member'])] )"
+  ]
+}
