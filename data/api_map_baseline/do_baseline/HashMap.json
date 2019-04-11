@@ -1,1 +1,63 @@
-{"HashMap ['Set']  keySet (  )": [], "HashMap ['Object']  putIfAbsent ( [('Object', ['key']), ('Object', ['value'])] )": [], "HashMap []  init ( [('int', ['initialCapacity']), ('float', ['loadFactor'])] )": [], "HashMap ['Object']  clone (  )": [], "HashMap ['Object']  compute ( [('Object', ['key']), ('function', ['remappingFunction'])] )": [], "HashMap ['Object']  computeIfAbsent ( [('Object', ['key']), ('function', ['mappingFunction'])] )": [], "HashMap ['int']  size (  )": [], "HashMap []  putAll ( [('Map', ['m'])] )": [], "HashMap ['Object']  remove ( [('Object', ['key'])] )": [], "HashMap ['Object']  put ( [('Object', ['key']), ('Object', ['value'])] )": [], "HashMap []  replaceAll ( [('function', ['function'])] )": [], "HashMap []  init (  )": [], "HashMap ['boolean']  replace ( [('Object', ['key']), ('Object', ['oldValue']), ('Object', ['newValue'])] )": [], "HashMap []  init ( [('Map', ['m'])] )": [], "HashMap ['boolean']  containsValue ( [('Object', ['value'])] )": [], "HashMap ['boolean']  remove ( [('Object', ['key']), ('Object', ['value'])] )": [], "HashMap ['Object']  getOrDefault ( [('Object', ['key']), ('Object', ['defaultValue'])] )": [], "HashMap []  forEach ( [('function', ['action'])] )": [], "HashMap ['Object']  get ( [('Object', ['key'])] )": [], "HashMap ['boolean']  isEmpty (  )": [], "HashMap []  init ( [('int', ['initialCapacity'])] )": [], "HashMap ['Object']  merge ( [('Object', ['key']), ('Object', ['value']), ('function', ['remappingFunction'])] )": [], "HashMap ['Set']  entrySet (  )": [], "HashMap ['Collection']  values (  )": [], "HashMap ['Object']  computeIfPresent ( [('Object', ['key']), ('function', ['remappingFunction'])] )": [], "HashMap ['Object']  replace ( [('Object', ['key']), ('Object', ['value'])] )": [], "HashMap ['boolean']  containsKey ( [('Object', ['key'])] )": [], "HashMap []  clear (  )": []}
+{
+  "HashMap ['Set']  keySet (  )": [
+    "Dictionary ['Dictionary.Keys']  keys (  )"
+  ],
+  "HashMap ['Object']  putIfAbsent ( [('Object', ['key']), ('Object', ['value'])] )": [],
+  "HashMap []  init ( [('int', ['initialCapacity']), ('float', ['loadFactor'])] )": [],
+  "HashMap ['Object']  clone (  )": [
+    "NSCopying ['Any']  copy ( [('NSZone', ['with', 'zone'])] )"
+  ],
+  "HashMap ['Object']  compute ( [('Object', ['key']), ('function', ['remappingFunction'])] )": [],
+  "HashMap ['Object']  computeIfAbsent ( [('Object', ['key']), ('function', ['mappingFunction'])] )": [],
+  "HashMap ['int']  size (  )": [
+    "NSMapTable ['Int']  count (  )",
+    "Dictionary ['Int']  count (  )",
+    "NSMapTable ['Int']  NSCountMapTable ( [('NSMapTable', ['table'])] )"
+  ],
+  "HashMap []  putAll ( [('Map', ['m'])] )": [
+    "Dictionary ['Valuerethrows']  merge ( [('Key', ['other']), ('Value', ['[Key']), ('function', ['uniquingKeysWith', 'combine'])] )",
+    "Dictionary ['Valuerethrows']  merge ( [('Sequence', ['other']), ('Value', ['uniquingKeysWith', 'combine']), ('SequenceS.Element', ['Value)', 'throws', '->', 'Value)', 'rethrows', 'where', 'S'])] )",
+    "Dictionary ['Value']  merging ( [('Key', ['other']), ('Value', ['[Key']), ('function', ['uniquingKeysWith', 'combine'])] )"
+  ],
+  "HashMap ['Object']  remove ( [('Object', ['key'])] )": [],
+  "HashMap ['Object']  put ( [('Object', ['key']), ('Object', ['value'])] )": [],
+  "HashMap []  replaceAll ( [('function', ['function'])] )": [
+    "Dictionary ['Voidrethrows']  forEach ( [('ke', ['body']), ('Key', ['((key']), ('function', ['value'])] )"
+  ],
+  "HashMap []  init (  )": [],
+  "HashMap ['boolean']  replace ( [('Object', ['key']), ('Object', ['oldValue']), ('Object', ['newValue'])] )": [],
+  "HashMap []  init ( [('Map', ['m'])] )": [],
+  "HashMap ['boolean']  containsValue ( [('Object', ['value'])] )": [
+    "Dictionary ['']  contains ( [('ke', ['where', 'predicate']), ('Key', ['((key']), ('function', ['value'])] )"
+  ],
+  "HashMap ['boolean']  remove ( [('Object', ['key']), ('Object', ['value'])] )": [],
+  "HashMap ['Object']  getOrDefault ( [('Object', ['key']), ('Object', ['defaultValue'])] )": [
+    "Dictionary ['Value']  subscript ( [('Key', ['key']), ('function', ['default', 'defaultValue'])] )"
+  ],
+  "HashMap []  forEach ( [('function', ['action'])] )": [
+    "Dictionary ['Voidrethrows']  forEach ( [('ke', ['body']), ('Key', ['((key']), ('function', ['value'])] )"
+  ],
+  "HashMap ['Object']  get ( [('Object', ['key'])] )": [
+    "NSMapTable ['Pointer']  NSMapGet ( [('NSMapTable', ['table']), ('Pointer', ['key'])] )"
+  ],
+  "HashMap ['boolean']  isEmpty (  )": [
+    "Dictionary ['Bool']  isEmpty (  )"
+  ],
+  "HashMap []  init ( [('int', ['initialCapacity'])] )": [],
+  "HashMap ['Object']  merge ( [('Object', ['key']), ('Object', ['value']), ('function', ['remappingFunction'])] )": [
+    "Dictionary ['Valuerethrows']  merge ( [('Key', ['other']), ('Value', ['[Key']), ('function', ['uniquingKeysWith', 'combine'])] )"
+  ],
+  "HashMap ['Set']  entrySet (  )": [],
+  "HashMap ['Collection']  values (  )": [],
+  "HashMap ['Object']  computeIfPresent ( [('Object', ['key']), ('function', ['remappingFunction'])] )": [],
+  "HashMap ['Object']  replace ( [('Object', ['key']), ('Object', ['value'])] )": [
+    "Dictionary ['Value']  updateValue ( [('Value', ['value']), ('Key', ['forKey', 'key'])] )"
+  ],
+  "HashMap ['boolean']  containsKey ( [('Object', ['key'])] )": [
+    "Dictionary ['']  contains ( [('ke', ['where', 'predicate']), ('Key', ['((key']), ('function', ['value'])] )"
+  ],
+  "HashMap []  clear (  )": [
+    "NSMapTable []  removeAllObjects (  )",
+    "Dictionary []  removeAll ( [('Bool', ['keepingCapacity', 'keepCapacity'])] )"
+  ]
+}

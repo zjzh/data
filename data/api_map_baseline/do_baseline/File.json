@@ -1,1 +1,131 @@
-{"File ['boolean']  canWrite (  )": [], "File ['boolean']  isAbsolute (  )": [], "File ['String']  getCanonicalPath (  )": [], "File ['boolean']  equals ( [('Object', ['obj'])] )": [], "File []  deleteOnExit (  )": [], "File ['boolean']  setExecutable ( [('boolean', ['executable']), ('boolean', ['ownerOnly'])] )": [], "File ['String']  getAbsolutePath (  )": [], "File ['boolean']  setReadOnly (  )": [], "File ['boolean']  renameTo ( [('File', ['dest'])] )": [], "File []  init ( [('URI', ['uri'])] )": [], "File ['int']  compareTo ( [('File', ['pathname'])] )": [], "File ['String']  getPath (  )": [], "File ['String']  toString (  )": [], "File ['Path']  toPath (  )": [], "File ['URI']  toURI (  )": [], "File ['URL']  toURL (  )": [], "File []  init ( [('String', ['parent']), ('String', ['child'])] )": [], "File ['boolean']  canRead (  )": [], "File ['boolean']  isDirectory (  )": [], "File ['boolean']  setLastModified ( [('long', ['time'])] )": [], "File ['Array']  listFiles ( [('FileFilter', ['filter'])] )": [], "File ['File']  createTempFile ( [('String', ['prefix']), ('String', ['suffix'])] )": [], "File ['boolean']  mkdir (  )": [], "File ['boolean']  isHidden (  )": [], "File ['Array']  listFiles (  )": [], "File ['boolean']  exists (  )": [], "File ['String']  getParent (  )": [], "File ['int']  hashCode (  )": [], "File ['boolean']  setWritable ( [('boolean', ['writable'])] )": [], "File ['String']  getName (  )": [], "File ['Array']  listFiles ( [('FilenameFilter', ['filter'])] )": [], "File ['File']  getAbsoluteFile (  )": [], "File ['long']  getFreeSpace (  )": [], "File ['boolean']  delete (  )": [], "File ['boolean']  canExecute (  )": [], "File ['Array']  listRoots (  )": [], "File ['long']  length (  )": [], "File ['boolean']  isFile (  )": [], "File ['boolean']  createNewFile (  )": [], "File ['Array']  list ( [('FilenameFilter', ['filter'])] )": [], "File ['boolean']  setReadable ( [('boolean', ['readable'])] )": [], "File ['long']  getUsableSpace (  )": [], "File ['File']  createTempFile ( [('String', ['prefix']), ('String', ['suffix']), ('File', ['directory'])] )": [], "File ['long']  getTotalSpace (  )": [], "File ['Array']  list (  )": [], "File []  init ( [('File', ['parent']), ('String', ['child'])] )": [], "File ['File']  getCanonicalFile (  )": [], "File ['boolean']  setWritable ( [('boolean', ['writable']), ('boolean', ['ownerOnly'])] )": [], "File ['long']  lastModified (  )": [], "File ['File']  getParentFile (  )": [], "File ['boolean']  mkdirs (  )": [], "File ['boolean']  setExecutable ( [('boolean', ['executable'])] )": [], "File []  init ( [('String', ['pathname'])] )": [], "File ['boolean']  setReadable ( [('boolean', ['readable']), ('boolean', ['ownerOnly'])] )": []}
+{
+  "File ['boolean']  canWrite (  )": [
+    "URLResourceValues ['Bool']  isWritable (  )",
+    "FileManager ['Bool']  isWritableFile ( [('String', ['atPath', 'path'])] )"
+  ],
+  "File ['boolean']  isAbsolute (  )": [],
+  "File ['String']  getCanonicalPath (  )": [
+    "URLResourceValues ['String']  canonicalPath (  )"
+  ],
+  "File ['boolean']  equals ( [('Object', ['obj'])] )": [
+    "URL ['Bool']  == ( [('URL', ['lhs']), ('URL', ['rhs'])] )"
+  ],
+  "File []  deleteOnExit (  )": [],
+  "File ['boolean']  setExecutable ( [('boolean', ['executable']), ('boolean', ['ownerOnly'])] )": [],
+  "File ['String']  getAbsolutePath (  )": [
+    "URLResourceValues ['String']  canonicalPath (  )"
+  ],
+  "File ['boolean']  setReadOnly (  )": [
+    "FileManager []  setAttributes ( [('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey']), ('String', ['ofItemAtPath', 'path'])] )",
+    "URLResourceValues ['Bool']  isReadable (  )"
+  ],
+  "File ['boolean']  renameTo ( [('File', ['dest'])] )": [
+    "URL []  setResourceValues ( [('URLResourceValues', ['values'])] )"
+  ],
+  "File []  init ( [('URI', ['uri'])] )": [],
+  "File ['int']  compareTo ( [('File', ['pathname'])] )": [
+    "URL ['Bool']  == ( [('URL', ['lhs']), ('URL', ['rhs'])] )"
+  ],
+  "File ['String']  getPath (  )": [
+    "URL ['String']  path (  )","URLResourceValues ['String']  path (  )"
+  ],
+  "File ['String']  toString (  )": [
+    "FileWrapper ['String']  filename (  )",
+    "URL ['String']  description (  )"
+  ],
+  "File ['Path']  toPath (  )": [
+    "URLResourceValues ['String']  path (  )"
+  ],
+  "File ['URI']  toURI (  )": [],
+  "File ['URL']  toURL (  )": [],
+  "File []  init ( [('String', ['parent']), ('String', ['child'])] )": [],
+  "File ['boolean']  canRead (  )": [
+    "URLResourceValues ['Bool']  isReadable (  )"
+  ],
+  "File ['boolean']  isDirectory (  )": [
+    "FileWrapper ['Bool']  isDirectory (  )"
+  ],
+  "File ['boolean']  setLastModified ( [('long', ['time'])] )": [
+    "FileManager []  setAttributes ( [('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey']), ('String', ['ofItemAtPath', 'path'])] )"
+  ],
+  "File ['Array']  listFiles ( [('FileFilter', ['filter'])] )": [],
+  "File ['File']  createTempFile ( [('String', ['prefix']), ('String', ['suffix'])] )": [],
+  "File ['boolean']  mkdir (  )": [
+    "FileManager ['URL']  url ( [('FileManager.SearchPathDirectory', ['for', 'directory']), ('FileManager.SearchPathDomainMask', ['in', 'domain']), ('URL', ['appropriateFor', 'url']), ('Bool', ['create', 'shouldCreate'])] )",
+    "FileManager []  createDirectory ( [('String', ['atPath', 'path']), ('Bool', ['withIntermediateDirectories', 'createIntermediates']), ('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey'])] )",
+    "FileManager []  createDirectory ( [('URL', ['at', 'url']), ('Bool', ['withIntermediateDirectories', 'createIntermediates']), ('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey'])] )"
+  ],
+  "File ['boolean']  isHidden (  )": [
+    "URLResourceValues ['Bool']  isHidden (  )"
+  ],
+  "File ['Array']  listFiles (  )": [
+    "FileManager ['String']  subpaths ( [('String', ['atPath', 'path'])] )"
+  ],
+  "File ['boolean']  exists (  )": [
+    "FileManager ['Bool']  fileExists ( [('String', ['atPath', 'path']), ('Pointer', ['isDirectory'])] )",
+    "FileManager ['Bool']  fileExists ( [('String', ['atPath', 'path'])] )"
+  ],
+  "File ['String']  getParent (  )": [
+    "URLResourceValues ['URL']  parentDirectory (  )"
+  ],
+  "File ['int']  hashCode (  )": [],
+  "File ['boolean']  setWritable ( [('boolean', ['writable'])] )": [
+  "NSFileCoordinator ['Void']  coordinate ( [('URL', ['readingItemAt', 'readingURL']), ('NSFileCoordinator.ReadingOptions', ['options', 'readingOptions']), ('URL', ['writingItemAt', 'writingURL']), ('NSFileCoordinator.WritingOptions', ['options', 'writingOptions']), ('Pointer', ['error', 'outError']), ('function', ['byAccessor', 'readerWriter'])] )",
+  "FileWrapper []  write ( [('URL', ['to', 'url']), ('FileWrapper.WritingOptions', ['options']), ('URL', ['originalContentsURL'])] )",
+  "NSFileCoordinator ['Void']  coordinate ( [('URL', ['writingItemAt', 'url1']), ('NSFileCoordinator.WritingOptions', ['options', 'options1']), ('URL', ['writingItemAt', 'url2']), ('NSFileCoordinator.WritingOptions', ['options', 'options2']), ('Pointer', ['error', 'outError']), ('function', ['byAccessor', 'writer'])] )",
+    "FileManager []  setAttributes ( [('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey']), ('String', ['ofItemAtPath', 'path'])] )"
+  ],
+  "File ['String']  getName (  )": [
+    "URLResourceValues ['String']  name (  )"
+  ],
+  "File ['Array']  listFiles ( [('FilenameFilter', ['filter'])] )": [],
+  "File ['File']  getAbsoluteFile (  )": [],
+  "File ['long']  getFreeSpace (  )": [
+    "FileAttributeKey ['FileAttributeKey']  systemFreeSize (  )",
+    "URLResourceValues ['Int']  volumeAvailableCapacity (  )"
+  ],
+  "File ['boolean']  delete (  )": [
+    "FileManager []  removeItem ( [('String', ['atPath', 'path'])] )",
+    "FileManager []  removeItem ( [('URL', ['at', 'URL'])] )"
+  ],
+  "File ['boolean']  canExecute (  )": [
+    "URLResourceValues ['Bool']  isExecutable (  )"
+  ],
+  "File ['Array']  listRoots (  )": [
+    "FileManager ['String']  NSOpenStepRootDirectory (  )"
+  ],
+  "File ['long']  length (  )": [
+    "URLResourceValues ['Int']  fileSize (  )"
+  ],
+  "File ['boolean']  isFile (  )": [],
+  "File ['boolean']  createNewFile (  )": [
+    "FileManager ['Bool']  createFile ( [('String', ['atPath', 'path']), ('Data', ['contents', 'data']), ('FileAttributeKey', ['attributes', 'attr']), ('Any', ['[FileAttributeKey'])] )"
+  ],
+  "File ['Array']  list ( [('FilenameFilter', ['filter'])] )": [],
+  "File ['boolean']  setReadable ( [('boolean', ['readable'])] )": [
+	"NSFileCoordinator ['Void']  coordinate ( [('URL', ['readingItemAt', 'readingURL']), ('NSFileCoordinator.ReadingOptions', ['options', 'readingOptions']), ('URL', ['writingItemAt', 'writingURL']), ('NSFileCoordinator.WritingOptions', ['options', 'writingOptions']), ('Pointer', ['error', 'outError']), ('function', ['byAccessor', 'readerWriter'])] )",
+    "FileManager []  setAttributes ( [('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey']), ('String', ['ofItemAtPath', 'path'])] )"
+  ],
+  "File ['long']  getUsableSpace (  )": [],
+  "File ['File']  createTempFile ( [('String', ['prefix']), ('String', ['suffix']), ('File', ['directory'])] )": [],
+  "File ['long']  getTotalSpace (  )": [],
+  "File ['Array']  list (  )": [],
+  "File []  init ( [('File', ['parent']), ('String', ['child'])] )": [],
+  "File ['File']  getCanonicalFile (  )": [],
+  "File ['boolean']  setWritable ( [('boolean', ['writable']), ('boolean', ['ownerOnly'])] )": [
+    "FileManager []  setAttributes ( [('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey']), ('String', ['ofItemAtPath', 'path'])] )"
+  ],
+  "File ['long']  lastModified (  )": [
+    "URLResourceValues ['Date']  contentModificationDate (  )"
+  ],
+  "File ['File']  getParentFile (  )": [
+    "URLResourceValues ['URL']  parentDirectory (  )"
+  ],
+  "File ['boolean']  mkdirs (  )": [
+    "FileManager []  createDirectory ( [('URL', ['at', 'url']), ('Bool', ['withIntermediateDirectories', 'createIntermediates']), ('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey'])] )",
+    "FileManager []  createDirectory ( [('String', ['atPath', 'path']), ('Bool', ['withIntermediateDirectories', 'createIntermediates']), ('FileAttributeKey', ['attributes']), ('Any', ['[FileAttributeKey'])] )"
+  ],
+  "File ['boolean']  setExecutable ( [('boolean', ['executable'])] )": [],
+  "File []  init ( [('String', ['pathname'])] )": [],
+  "File ['boolean']  setReadable ( [('boolean', ['readable']), ('boolean', ['ownerOnly'])] )": []
+}

@@ -1,1 +1,104 @@
-{"ArrayList []  forEach ( [('function', ['action'])] )": [], "ArrayList []  init ( [('int', ['initialCapacity'])] )": [], "ArrayList []  replaceAll ( [('function', ['operator'])] )": [], "ArrayList ['boolean']  removeAll ( [('Collection', ['c'])] )": [], "ArrayList ['boolean']  addAll ( [('Collection', ['c'])] )": [], "ArrayList ['int']  indexOf ( [('Object', ['o'])] )": [], "ArrayList []  add ( [('int', ['index']), ('Object', ['element'])] )": [], "ArrayList ['boolean']  removeIf ( [('function', ['filter'])] )": [], "ArrayList []  init ( [('Collection', ['c'])] )": [], "ArrayList ['Array']  toArray (  )": [], "ArrayList ['boolean']  contains ( [('Object', ['o'])] )": [], "ArrayList ['Object']  get ( [('int', ['index'])] )": [], "ArrayList ['Spliterator']  spliterator (  )": [], "ArrayList ['ListIterator']  listIterator (  )": [], "ArrayList ['Iterator']  iterator (  )": [], "ArrayList []  trimToSize (  )": [], "ArrayList ['int']  size (  )": [], "ArrayList []  ensureCapacity ( [('int', ['minCapacity'])] )": [], "ArrayList ['Object']  remove ( [('int', ['index'])] )": [], "ArrayList ['boolean']  addAll ( [('int', ['index']), ('Collection', ['c'])] )": [], "ArrayList []  sort ( [('Comparator', ['c'])] )": [], "ArrayList ['boolean']  remove ( [('Object', ['o'])] )": [], "ArrayList ['Object']  clone (  )": [], "ArrayList ['int']  lastIndexOf ( [('Object', ['o'])] )": [], "ArrayList ['boolean']  retainAll ( [('Collection', ['c'])] )": [], "ArrayList ['Object']  set ( [('int', ['index']), ('Object', ['element'])] )": [], "ArrayList ['boolean']  add ( [('Object', ['e'])] )": [], "ArrayList ['ListIterator']  listIterator ( [('int', ['index'])] )": [], "ArrayList []  init (  )": [], "ArrayList []  clear (  )": [], "ArrayList ['boolean']  isEmpty (  )": [], "ArrayList ['List']  subList ( [('int', ['fromIndex']), ('int', ['toIndex'])] )": [], "ArrayList ['Array']  toArray ( [('Array', ['a'])] )": []}
+{
+  "ArrayList []  forEach ( [('function', ['action'])] )": [
+    
+  ],
+  "ArrayList []  init ( [('int', ['initialCapacity'])] )": [],
+  "ArrayList []  replaceAll ( [('function', ['operator'])] )": [],
+  "ArrayList ['boolean']  removeAll ( [('Collection', ['c'])] )": [
+    "ArraySlice ['']  removeAll ( [('function', ['where', 'shouldBeRemoved'])] )",
+    "Array ['']  removeAll ( [('function', ['where', 'shouldBeRemoved'])] )"
+  ],
+  "ArrayList ['boolean']  addAll ( [('Collection', ['c'])] )": [
+    "Array []  insert ( [('Collection', ['contentsOf', 'newElements']), ('Int', ['at', 'i'])] )",
+    "ContiguousArray []  insert ( [('Collection', ['contentsOf', 'newElements']), ('Int', ['at', 'i'])] )",
+    "Slice []  insert ( [('Collection', ['contentsOf', 'newElements']), ('Base.Index', ['at', 'i'])] )",
+    "ArraySlice []  insert ( [('Collection', ['contentsOf', 'newElements']), ('Int', ['at', 'i'])] )",
+    "Array []  append ( [('Sequence', ['contentsOf', 'newElements'])] )",
+    "ArraySlice []  append ( [('Sequence', ['contentsOf', 'newElements'])] )"
+  ],
+  "ArrayList ['int']  indexOf ( [('Object', ['o'])] )": [
+    "ContiguousArray ['Int']  firstIndex ( [('Element', ['of', 'element'])] )",
+    "Array ['Int']  firstIndex ( [('Element', ['of', 'element'])] )",
+    "CollectionOfOne ['Int']  firstIndex ( [('Element', ['of', 'element'])] )"
+  ],
+  "ArrayList []  add ( [('int', ['index']), ('Object', ['element'])] )": [
+    "Array []  insert ( [('Element', ['newElement']), ('Int', ['at', 'i'])] )",
+    "ContiguousArray []  insert ( [('Element', ['newElement']), ('Int', ['at', 'i'])] )",
+    "ArraySlice []  insert ( [('Element', ['newElement']), ('Int', ['at', 'i'])] )"
+  ],
+  "ArrayList ['boolean']  removeIf ( [('function', ['filter'])] )": [
+    "Array ['']  removeAll ( [('function', ['where', 'shouldBeRemoved'])] )"
+  ],
+  "ArrayList []  init ( [('Collection', ['c'])] )": [],
+  "ArrayList ['Array']  toArray (  )": [],
+  "ArrayList ['boolean']  contains ( [('Object', ['o'])] )": [
+    "ContiguousArray ['Bool']  contains ( [('Element', ['element'])] )",
+    "Array ['Bool']  contains ( [('Element', ['element'])] )"
+  ],
+  "ArrayList ['Object']  get ( [('int', ['index'])] )": [
+    "Array ['Element']  subscript ( [('Int', ['index'])] )"
+  ],
+  "ArrayList ['Spliterator']  spliterator (  )": [],
+  "ArrayList ['ListIterator']  listIterator (  )": [
+    "ContiguousArray ['IndexingIterator']  makeIterator (  )",
+    "Array ['IndexingIterator']  makeIterator (  )"
+  ],
+  "ArrayList ['Iterator']  iterator (  )": [
+    "ContiguousArray ['IndexingIterator']  makeIterator (  )",
+    "Array ['IndexingIterator']  makeIterator (  )"
+  ],
+  "ArrayList []  trimToSize (  )": [],
+  "ArrayList ['int']  size (  )": [
+    "Array ['Int']  count (  )","ArraySlice ['Int']  count (  )","ContiguousArray ['Int']  count (  )"
+  ],
+  "ArrayList []  ensureCapacity ( [('int', ['minCapacity'])] )": [
+    "ContiguousArray []  reserveCapacity ( [('Int', ['minimumCapacity'])] )",
+    "Array []  reserveCapacity ( [('Int', ['minimumCapacity'])] )",
+    "ArraySlice []  reserveCapacity ( [('Int', ['minimumCapacity'])] )"
+  ],
+  "ArrayList ['Object']  remove ( [('int', ['index'])] )": [
+    "ContiguousArray ['Element']  remove ( [('Int', ['at', 'index'])] )",
+    "Array ['Element']  remove ( [('Int', ['at', 'index'])] )"
+  ],
+  "ArrayList ['boolean']  addAll ( [('int', ['index']), ('Collection', ['c'])] )": [
+    "ArraySlice []  insert ( [('Collection', ['contentsOf', 'newElements']), ('Int', ['at', 'i'])] )",
+    "Array []  insert ( [('Collection', ['contentsOf', 'newElements']), ('Int', ['at', 'i'])] )",
+    "ContiguousArray []  insert ( [('Collection', ['contentsOf', 'newElements']), ('Int', ['at', 'i'])] )"
+  ],
+  "ArrayList []  sort ( [('Comparator', ['c'])] )": [
+    "Array ['Boolrethrows']  sort ( [('function', ['by', 'areInIncreasingOrder'])] )"
+  ],
+  "ArrayList ['boolean']  remove ( [('Object', ['o'])] )": [
+    "Array ['']  removeAll ( [('function', ['where', 'shouldBeRemoved'])] )","ArraySlice ['']  removeAll ( [('function', ['where', 'shouldBeRemoved'])] )"
+  ],
+  "ArrayList ['Object']  clone (  )": [],
+  "ArrayList ['int']  lastIndexOf ( [('Object', ['o'])] )": [
+    "Array ['Int']  lastIndex ( [('Element', ['of', 'element'])] )",
+	"ContiguousArray ['Int']  lastIndex ( [('Element', ['of', 'element'])] )",
+	"Slice ['Base.Index']  lastIndex ( [('Base.Element', ['of', 'element'])] )"
+  ],
+  "ArrayList ['boolean']  retainAll ( [('Collection', ['c'])] )": [],
+  "ArrayList ['Object']  set ( [('int', ['index']), ('Object', ['element'])] )": [],
+  "ArrayList ['boolean']  add ( [('Object', ['e'])] )": [
+    "ContiguousArray []  += ( [('inoutContiguousArray', ['lhs']), ('Sequence', ['rhs'])] )",
+    "Array []  += ( [('inoutArray', ['lhs']), ('Sequence', ['rhs'])] )",
+    "ArraySlice []  += ( [('inoutArraySlice', ['lhs']), ('Sequence', ['rhs'])] )",
+    "Array []  append ( [('Element', ['newElement'])] )",
+    "ContiguousArray []  append ( [('Element', ['newElement'])] )"
+  ],
+  "ArrayList ['ListIterator']  listIterator ( [('int', ['index'])] )": [],
+  "ArrayList []  init (  )": [],
+  "ArrayList []  clear (  )": [
+    "Array []  removeAll ( [('Bool', ['keepingCapacity', 'keepCapacity'])] )",
+    "Slice []  removeAll ( [('Bool', ['keepingCapacity', 'keepCapacity'])] )",
+    "ArraySlice []  removeAll ( [('Bool', ['keepingCapacity', 'keepCapacity'])] )"
+  ],
+  "ArrayList ['boolean']  isEmpty (  )": [
+    "Array ['Bool']  isEmpty (  )",
+    "ArraySlice ['Bool']  isEmpty (  )"
+  ],
+  "ArrayList ['List']  subList ( [('int', ['fromIndex']), ('int', ['toIndex'])] )": [
+    "Array ['ArraySlice']  subscript ( [('Range', ['bounds'])] )"
+  ],
+  "ArrayList ['Array']  toArray ( [('Array', ['a'])] )": []
+}
