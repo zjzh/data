@@ -1,88 +1,13 @@
 {
-  "FileOutputStream []  init ( [('FileDescriptor', ['fdObj'])] )": [OneToMany],
-  "FileOutputStream []  write ( [('Array', ['b']), ('int', ['off']), ('int', ['len'])] )": [
-    "OutputStream",
-    [ "Int" ],
-    "write",
-    "(",
-    [
-      "('Pointer'",
-      [ "buffer" ]
-      ")",
-      ,
-      "('Int'",
-      [ "maxLength", "len" ]
-      ")",
-    ],
-    ")"
-  ],
-  "FileOutputStream ['FileDescriptor']  getFD (  )": [None],
-  "FileOutputStream []  init ( [('String', ['name']), ('boolean', ['append'])] )": [
-    "OutputStream",
-    [],
-    "init",
-    "(",
-    [
-      "('String'",
-      [ "toFileAtPath", "path" ]
-      ")",
-      ,
-      "('Bool'",
-      [ "append", "shouldAppend" ]
-      ")",
-    ],
-    ")"
-  ],
-  "FileOutputStream []  write ( [('int', ['b'])] )": [
-    "OutputStream",
-    [ "Int" ],
-    "write",
-    "(",
-    [
-      "('Pointer'",
-      [ "buffer" ]
-      ")",
-      ,
-      "('Int'",
-      [ "maxLength", "len" ]
-      ")",
-    ],
-    ")"
-  ],
-  "FileOutputStream []  write ( [('Array', ['b'])] )": [
-    "OutputStream",
-    [ "Int" ],
-    "write",
-    "(",
-    [
-      "('Pointer'",
-      [ "buffer" ]
-      ")",
-      ,
-      "('Int'",
-      [ "maxLength", "len" ]
-      ")",
-    ],
-    ")"
-  ],
-  "FileOutputStream []  init ( [('File', ['file'])] )": [OneToMany],
-  "FileOutputStream []  init ( [('String', ['name'])] )": [
-    "OutputStream",
-    [],
-    "init",
-    "(",
-    [
-      "('String'",
-      [ "toFileAtPath", "path" ]
-      ")",
-      ,
-      "('Bool'",
-      [ "append", "shouldAppend" ]
-      ")",
-    ],
-    ")"
-  ],
-  "FileOutputStream []  close (  )": [None],
-  "FileOutputStream ['FileChannel']  getChannel (  )": [None],
-  "FileOutputStream []  init ( [('File', ['file']), ('boolean', ['append'])] )": [OneToMany]
+  "FileOutputStream []  init ( [('FileDescriptor', ['fdObj'])] )": [],
+  "FileOutputStream []  write ( [('Array', ['b']), ('int', ['off']), ('int', ['len'])] )": ["OutputStream ['Int']  write ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )"],
+  "FileOutputStream ['FileDescriptor']  getFD (  )": null,
+  "FileOutputStream []  init ( [('String', ['name']), ('boolean', ['append'])] )": ["OutputStream []  init ( [('String', ['toFileAtPath', 'path']), ('Bool', ['append', 'shouldAppend'])] )"],
+  "FileOutputStream []  write ( [('int', ['b'])] )": ["OutputStream ['Int']  write ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )"],
+  "FileOutputStream []  write ( [('Array', ['b'])] )": ["OutputStream ['Int']  write ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )"],
+  "FileOutputStream []  init ( [('File', ['file'])] )": [],
+  "FileOutputStream []  init ( [('String', ['name'])] )": ["OutputStream []  init ( [('String', ['toFileAtPath', 'path']), ('Bool', ['append', 'shouldAppend'])] )"],
+  "FileOutputStream []  close (  )": null,
+  "FileOutputStream ['FileChannel']  getChannel (  )": null,
+  "FileOutputStream []  init ( [('File', ['file']), ('boolean', ['append'])] )": []
 }
