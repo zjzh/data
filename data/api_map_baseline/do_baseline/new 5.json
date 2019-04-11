@@ -1,0 +1,62 @@
+{
+  "FileInputStream []  init ( [('File', ['file'])] )": [  ],
+  "FileInputStream ['int']  read ( [('Array', ['b'])] )": [
+   "InputStream ['Int']  read ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )"
+  ],
+  "FileInputStream []  init ( [('FileDescriptor', ['fdObj'])] )": [ OneToMany ],
+  "FileInputStream []  init ( [('String', ['name'])] )": [
+    "InputStream",
+    [],
+    "init",
+    "(",
+    [
+      "('String'",
+      [ "fileAtPath", "path" ]
+      ")",
+    ],
+    ")"
+  ],
+  "FileInputStream ['int']  read ( [('Array', ['b']), ('int', ['off']), ('int', ['len'])] )": [
+    "InputStream",
+    [ "Int" ],
+    "read",
+    "(",
+    [
+      "('Pointer'",
+      [ "buffer" ]
+      ")",
+      ,
+      "('Int'",
+      [ "maxLength", "len" ]
+      ")",
+    ],
+    ")"
+  ],
+  "FileInputStream ['FileChannel']  getChannel (  )": None,
+  "FileInputStream []  close (  )": ["FileHandle []  closeFile (  )"],
+  "FileInputStream ['int']  available (  )": [ None ],
+  "FileInputStream ['FileDescriptor']  getFD (  )": [
+    "FileHandle",
+    [ "FileHandle" ],
+    "standardInput",
+    "(",
+    ")"
+  ],
+  "FileInputStream ['int']  read (  )": [
+    "InputStream",
+    [ "Int" ],
+    "read",
+    "(",
+    [
+      "('Pointer'",
+      [ "buffer" ]
+      ")",
+      ,
+      "('Int'",
+      [ "maxLength", "len" ]
+      ")",
+    ],
+    ")"
+  ],
+  "FileInputStream ['long']  skip ( [('long', ['n'])] )": [None]
+}
