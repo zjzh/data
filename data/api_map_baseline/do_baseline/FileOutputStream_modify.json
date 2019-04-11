@@ -1,0 +1,13 @@
+{
+  "FileOutputStream []  init ( [('FileDescriptor', ['fdObj'])] )": [],
+  "FileOutputStream []  write ( [('Array', ['b']), ('int', ['off']), ('int', ['len'])] )": ["OutputStream ['Int']  write ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )"],
+  "FileOutputStream ['FileDescriptor']  getFD (  )": null,
+  "FileOutputStream []  init ( [('String', ['name']), ('boolean', ['append'])] )": ["OutputStream []  init ( [('String', ['toFileAtPath', 'path']), ('Bool', ['append', 'shouldAppend'])] )"],
+  "FileOutputStream []  write ( [('int', ['b'])] )": ["OutputStream ['Int']  write ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )","FileHandle []  write ( [('Data', ['data'])] )"],
+  "FileOutputStream []  write ( [('Array', ['b'])] )": ["OutputStream ['Int']  write ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )","FileHandle []  write ( [('Data', ['data'])] )"],
+  "FileOutputStream []  init ( [('File', ['file'])] )": [],
+  "FileOutputStream []  init ( [('String', ['name'])] )": [],
+  "FileOutputStream []  close (  )": null,
+  "FileOutputStream ['FileChannel']  getChannel (  )": null,
+  "FileOutputStream []  init ( [('File', ['file']), ('boolean', ['append'])] )": []
+}

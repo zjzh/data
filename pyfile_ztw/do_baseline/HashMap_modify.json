@@ -34,7 +34,7 @@
   ],
   "HashMap ['Object']  get ( [('Object', ['key'])] )": [
     "NSMapTable ['Pointer']  NSMapGet ( [('NSMapTable', ['table']), ('Pointer', ['key'])] )",
-	"UserDefaults ['Any']  object ( [('String', ['forKey', 'defaultName'])] )",
+	"UserDefaults ['Any']  object ( [('String', ['forKey', 'defaultName'])] )"
 	
   ],
   "HashMap ['boolean']  isEmpty (  )": [

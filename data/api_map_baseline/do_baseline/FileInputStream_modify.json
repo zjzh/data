@@ -1,0 +1,13 @@
+{
+  "FileInputStream []  init ( [('File', ['file'])] )": [],
+  "FileInputStream ['int']  read ( [('Array', ['b'])] )": ["InputStream ['Int']  read ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )","FileHandle []  write ( [('Data', ['data'])] )"],
+  "FileInputStream []  init ( [('FileDescriptor', ['fdObj'])] )": [],
+  "FileInputStream []  init ( [('String', ['name'])] )": [],
+  "FileInputStream ['int']  read ( [('Array', ['b']), ('int', ['off']), ('int', ['len'])] )": [],
+  "FileInputStream ['FileChannel']  getChannel (  )": null,
+  "FileInputStream []  close (  )": null,
+  "FileInputStream ['int']  available (  )": null,
+  "FileInputStream ['FileDescriptor']  getFD (  )": ["FileHandle ['FileHandle']  standardInput (  )"],
+  "FileInputStream ['int']  read (  )": ["InputStream ['Int']  read ( [('Pointer', ['buffer']), ('Int', ['maxLength', 'len'])] )","FileHandle ['Data']  readDataToEndOfFile (  )"],
+  "FileInputStream ['long']  skip ( [('long', ['n'])] )": null
+}
