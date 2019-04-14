@@ -1,8 +1,12 @@
 {
-  "StringBuilder ['StringBuilder']  append ( [('CharSequence', ['s'])] )": ["String []  append ( [('Sequence', ['contentsOf', 'newElements'])] )"],
-  "StringBuilder ['StringBuilder']  replace ( [('int', ['start']), ('int', ['end']), ('String', ['str'])] )": ["NSString ['String']  replacingCharacters ( [('NSRange', ['in', 'range']), ('String', ['with', 'replacement'])] )"],
-  "StringBuilder ['StringBuilder']  append ( [('String', ['str'])] )": ["String []  append ( [('String', ['other'])] )"],
-  "StringBuilder []  setCharAt ( [('int', ['index']), ('char', ['ch'])] )": ["NSMutableString []  replaceCharacters ( [('NSRange', ['in', 'range']), ('String', ['with', 'aString'])] )"],
+  "StringBuilder ['StringBuilder']  append ( [('CharSequence', ['s'])] )":
+  ["String []  append ( [('Sequence', ['contentsOf', 'newElements'])] )"],
+  "StringBuilder ['StringBuilder']  replace ( [('int', ['start']), ('int', ['end']), ('String', ['str'])] )": 
+  ["NSString ['String']  replacingCharacters ( [('NSRange', ['in', 'range']), ('String', ['with', 'replacement'])] )"],
+  "StringBuilder ['StringBuilder']  append ( [('String', ['str'])] )": 
+  ["String []  append ( [('String', ['other'])] )"],
+  "StringBuilder []  setCharAt ( [('int', ['index']), ('char', ['ch'])] )":
+  ["NSMutableString []  replaceCharacters ( [('NSRange', ['in', 'range']), ('String', ['with', 'aString'])] )"],
   "StringBuilder ['StringBuilder']  append ( [('Array', ['str']), ('int', ['offset']), ('int', ['len'])] )": [],
   "StringBuilder ['int']  lastIndexOf ( [('String', ['str']), ('int', ['fromIndex'])] )": [],
   "StringBuilder ['int']  codePointCount ( [('int', ['beginIndex']), ('int', ['endIndex'])] )": null,
