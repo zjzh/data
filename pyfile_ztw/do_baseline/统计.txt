@@ -1,0 +1,79 @@
+URL
+构造函数：6
+一一映射：17
+
+不存在：5
+URL ['Object']  getContent ( [('Array', ['classes'])] )
+URL ['URLConnection'] openConnection ( [('Proxy', ['proxy'])] )
+URL ['InputStream'] openStream ( )
+URL [] setURLStreamHandlerFactory ( [('URLStreamHandlerFactory', ['fac'])] )：swift里没有工厂
+
+（我觉得可能）有但是没找到的api：7
+URL ['Object'] getContent ( )
+URL ['String'] getFile ( )
+URL ['URLConnection'] openConnection ( )
+URL ['int'] getDefaultPort ( )
+URL ['String'] getAuthority ( )
+URL ['String']  getRef (  )
+URL ['URI'] toURI ( )
+
+------------------------------------------------------------------------
+
+HttpURLConnection
+构造函数：0
+一一映射：3
+
+不存在：10
+HttpURLConnection []  setInstanceFollowRedirects：没有在swift里找到任何关于“重定向”的api
+HttpURLConnection ['boolean']  getFollowRedirects (  )
+HttpURLConnection []  setFollowRedirects ( [('boolean', ['set'])] )
+HttpURLConnection ['boolean']  getInstanceFollowRedirects (  )
+HttpURLConnection ['long']  getHeaderFieldDate ( [('String', ['name']), ('long', ['Default'])] )：返回解析为日期的指定字段的值
+HttpURLConnection []  setFixedLengthStreamingMode ( [('int', ['contentLength'])] )：在知道内容长度前提下，设置流输出的固定内容长度
+HttpURLConnection []  setFixedLengthStreamingMode ( [('long', ['contentLength'])] )
+HttpURLConnection []  setChunkedStreamingMode ( [('int', ['chunklen'])] )：在不知道内容长度前提下，设置流输出时的存储块长度
+HttpURLConnection ['String']  getHeaderFieldKey ( [('int', ['n'])] )：只有value没有找到key
+HttpURLConnection ['InputStream']  getErrorStream (  )
+
+（我觉得可能）有但是没找到的api：3
+HttpURLConnection []  setRequestMethod ( [('String', ['method'])] )：设置请求方式
+HttpURLConnection ['Permission']  getPermission (  )：没有找到有关permission的api
+HttpURLConnection ['String']  getResponseMessage (  )：获取与来自服务器的响应代码一起返回的 HTTP 响应消息
+
+------------------------------------------------------------------------
+
+Matcher
+构造函数：0
+一一映射：7
+
+不存在：17
+Matcher ['boolean']  hitEnd (  )
+Matcher ['Matcher']  reset (  )
+Matcher ['Matcher']  region ( [('int', ['start']), ('int', ['end'])] )
+Matcher ['Matcher']  usePattern ( [('Pattern', ['newPattern'])] )：没有在swift的类里找到设置模式的api
+Matcher ['boolean']  lookingAt (  )
+Matcher ['int']  regionStart (  )
+Matcher ['boolean']  hasTransparentBounds (  )
+Matcher ['String']  group ( [('int', ['group'])] )：没在swift正则类里找到有“分组”的概念
+Matcher ['String']  group ( [('String', ['name'])] )
+Matcher ['String']  quoteReplacement ( [('String', ['s'])] )
+Matcher ['boolean']  hasAnchoringBounds (  )
+Matcher ['Matcher']  useAnchoringBounds ( [('boolean', ['b'])] )
+Matcher ['StringBuffer']  appendTail ( [('StringBuffer', ['sb'])] )
+Matcher ['boolean']  requireEnd (  )
+Matcher ['String']  toString (  )
+Matcher ['Matcher']  useTransparentBounds ( [('boolean', ['b'])] )
+Matcher ['Matcher']  region ( [('int', ['start']), ('int', ['end'])] )
+
+（我觉得可能）有但是没找到的api：7
+Matcher ['int']  start ( [('int', ['group'])] )：排在前面的都不是正则表达式类的api
+Matcher ['int']  start (  )
+Matcher ['int']  end (  )：同start方法（但我觉得可以通过NSRE里的match方法返回的range获得start和end下标值）
+Matcher ['boolean']  find (  )：结果里根本没有NSRE的api
+Matcher ['boolean']  find ( [('int', ['start'])] )：应该可以从rangeOfFirstMatch等方法实现吧
+Matcher ['int']  end ( [('String', ['name'])] )
+Matcher ['int']  end ( [('int', ['group'])] )
+
+注：NSRegularExpression的api本来就很少，而且使用的方法可能和java中的Matcher不太一样
+
+
