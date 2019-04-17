@@ -1,0 +1,50 @@
+{
+  "Matcher ['int']  start ( [('int', ['group'])] )": [],
+  "Matcher ['boolean']  hitEnd (  )": [],
+  "Matcher ['Matcher']  reset (  )": [],
+  "Matcher ['int']  start ( [('String', ['name'])] )": [],
+  "Matcher ['Matcher']  usePattern ( [('Pattern', ['newPattern'])] )": [],
+  "Matcher ['int']  end (  )": [],
+  "Matcher ['String']  replaceFirst ( [('String', ['replacement'])] )": [
+    "NSRegularExpression ['String']  stringByReplacingMatches ( [('String', ['in', 'string']), ('NSRegularExpression.MatchingOptions', ['options']), ('NSRange', ['range']), ('String', ['withTemplate', 'templ'])] )"
+  ],
+  "Matcher ['boolean']  lookingAt (  )": [],
+  "Matcher ['boolean']  find (  )": [],
+  "Matcher ['int']  regionStart (  )": [],
+  "Matcher ['boolean']  hasTransparentBounds (  )": [],
+  "Matcher ['String']  group ( [('int', ['group'])] )": [],
+  "Matcher ['String']  group (  )": [],
+  "Matcher ['boolean']  find ( [('int', ['start'])] )": [],
+  "Matcher ['String']  quoteReplacement ( [('String', ['s'])] )": [],
+  "Matcher ['boolean']  hasAnchoringBounds (  )": [],
+  "Matcher ['Matcher']  useAnchoringBounds ( [('boolean', ['b'])] )": [],
+  "Matcher ['StringBuffer']  appendTail ( [('StringBuffer', ['sb'])] )": [],
+  "Matcher ['int']  end ( [('String', ['name'])] )": [],
+  "Matcher ['String']  replaceAll ( [('String', ['replacement'])] )": [
+    "NSRegularExpression ['Int']  replaceMatches ( [('NSMutableString', ['in', 'string']), ('NSRegularExpression.MatchingOptions', ['options']), ('NSRange', ['range']), ('String', ['withTemplate', 'templ'])] )"
+  ],
+  "Matcher ['int']  groupCount (  )": [
+    "NSRegularExpression ['Int']  numberOfMatches ( [('String', ['in', 'string']), ('NSRegularExpression.MatchingOptions', ['options']), ('NSRange', ['range'])] )"
+  ],
+  "Matcher ['boolean']  requireEnd (  )": [],
+  "Matcher ['int']  end ( [('int', ['group'])] )": [],
+  "Matcher ['String']  group ( [('String', ['name'])] )": [],
+  "Matcher ['MatchResult']  toMatchResult (  )": [
+    "NSRegularExpression ['NSTextCheckingResult']  matches ( [('String', ['in', 'string']), ('NSRegularExpression.MatchingOptions', ['options']), ('NSRange', ['range'])] )"
+  ],
+  "Matcher ['int']  regionEnd (  )": [],
+  "Matcher ['Pattern']  pattern (  )": [
+    "NSRegularExpression ['String']  pattern (  )"
+  ],
+  "Matcher ['String']  toString (  )": [],
+  "Matcher ['Matcher']  useTransparentBounds ( [('boolean', ['b'])] )": [],
+  "Matcher ['Matcher']  appendReplacement ( [('StringBuffer', ['sb']), ('String', ['replacement'])] )": [
+    "NSRegularExpression ['String']  replacementString ( [('NSTextCheckingResult', ['for', 'result']), ('String', ['in', 'string']), ('Int', ['offset']), ('String', ['template', 'templ'])] )"
+  ],
+  "Matcher ['Matcher']  reset ( [('CharSequence', ['input'])] )": [],
+  "Matcher ['boolean']  matches (  )": [
+    "NSRegularExpression ['NSTextCheckingResult']  matches ( [('String', ['in', 'string']), ('NSRegularExpression.MatchingOptions', ['options']), ('NSRange', ['range'])] )"
+  ],
+  "Matcher ['int']  start (  )": [],
+  "Matcher ['Matcher']  region ( [('int', ['start']), ('int', ['end'])] )": []
+}

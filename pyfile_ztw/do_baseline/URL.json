@@ -1,0 +1,71 @@
+{
+  "URL ['Object']  getContent ( [('Array', ['classes'])] )": [],
+  "URL ['String']  toExternalForm (  )": [
+    "URL ['String']  absoluteString (  )",
+    "NSURL ['String']  absoluteString (  )"
+  ],
+  "URL ['String']  getProtocol (  )": [
+    "URL ['String']  scheme (  )"
+  ],
+  "URL []  init ( [('URL', ['context']), ('String', ['spec']), ('URLStreamHandler', ['handler'])] )": [
+    "NSURL []  init ( [('String', ['string', 'URLString']), ('URL', ['relativeTo', 'baseURL'])] )"
+  ],
+  "URL ['int']  hashCode (  )": [
+    "URL ['Int']  hashValue (  )"
+  ],
+  "URL ['Object']  getContent (  )": [],
+  "URL []  init ( [('URL', ['context']), ('String', ['spec'])] )": [
+    "NSURL []  init ( [('String', ['string', 'URLString'])] )"
+  ],
+  "URL ['URI']  toURI (  )": [],
+  "URL ['String']  getPath (  )": [
+    "NSURL ['String']  path (  )",
+    "URL ['String']  path (  )"
+  ],
+  "URL []  init ( [('String', ['protocol']), ('String', ['host']), ('int', ['port']), ('String', ['file']), ('URLStreamHandler', ['handler'])] )": [
+    "NSURL []  init ( [('String', ['scheme']), ('String', ['host']), ('String', ['path'])] )"
+  ],
+  "URL ['boolean']  sameFile ( [('URL', ['other'])] )": [
+    "URLComponents ['Bool']  == ( [('URLComponents', ['lhs']), ('URLComponents', ['rhs'])] )"
+  ],
+  "URL []  init ( [('String', ['protocol']), ('String', ['host']), ('String', ['file'])] )": [
+    "NSURL []  init ( [('String', ['scheme']), ('String', ['host']), ('String', ['path'])] )"
+  ],
+  "URL ['String']  getUserInfo (  )": [
+    "URL ['String']  user (  )"
+  ],
+  "URL ['URLConnection']  openConnection ( [('Proxy', ['proxy'])] )": [],
+  "URL ['InputStream']  openStream (  )": [],
+  "URL ['String']  toString (  )": [
+    "URL ['String']  absoluteString (  )",
+    "NSURL ['String']  absoluteString (  )"
+  ],
+  "URL ['String']  getQuery (  )": [
+    "URL ['String']  query (  )",
+    "NSURL ['String']  query (  )"
+  ],
+  "URL ['String']  getRef (  )": [],
+  "URL ['String']  getHost (  )": [
+    "NSURL ['String']  host (  )",
+    "URL ['String']  host (  )"
+  ],
+  "URL []  setURLStreamHandlerFactory ( [('URLStreamHandlerFactory', ['fac'])] )": [],
+  "URL ['boolean']  equals ( [('Object', ['obj'])] )": [
+    "URLComponents ['Bool']  == ( [('URLComponents', ['lhs']), ('URLComponents', ['rhs'])] )"
+  ],
+  "URL ['String']  getFile (  )": [],
+  "URL []  init ( [('String', ['protocol']), ('String', ['host']), ('int', ['port']), ('String', ['file'])] )": [
+    "NSURL []  init ( [('String', ['fileURLWithPath', 'path']), ('Bool', ['isDirectory', 'isDir'])] )",
+    "NSURL []  init ( [('String', ['fileURLWithPath', 'path'])] )"
+  ],
+  "URL ['URLConnection']  openConnection (  )": [],
+  "URL []  init ( [('String', ['spec'])] )": [
+    "NSURL []  init ( [('String', ['string', 'URLString'])] )"
+  ],
+  "URL ['int']  getPort (  )": [
+    "URL ['Int']  port (  )",
+    "NSURL ['NSNumber']  port (  )"
+  ],
+  "URL ['int']  getDefaultPort (  )": [],
+  "URL ['String']  getAuthority (  )": []
+}

@@ -1,0 +1,25 @@
+{
+  "HttpURLConnection []  setRequestMethod ( [('String', ['method'])] )": [],
+  "HttpURLConnection []  setInstanceFollowRedirects ( [('boolean', ['followRedirects'])] )": [],
+  "HttpURLConnection ['long']  getHeaderFieldDate ( [('String', ['name']), ('long', ['Default'])] )": [],
+  "HttpURLConnection ['Permission']  getPermission (  )": [],
+  "HttpURLConnection ['String']  getResponseMessage (  )": [],
+  "HttpURLConnection ['boolean']  getFollowRedirects (  )": [],
+  "HttpURLConnection []  setFixedLengthStreamingMode ( [('int', ['contentLength'])] )": [],
+  "HttpURLConnection ['String']  getHeaderField ( [('int', ['n'])] )": [
+    "NSURLRequest ['String']  value ( [('String', ['forHTTPHeaderField', 'field'])] )"
+  ],
+  "HttpURLConnection []  setFollowRedirects ( [('boolean', ['set'])] )": [],
+  "HttpURLConnection []  setFixedLengthStreamingMode ( [('long', ['contentLength'])] )": [],
+  "HttpURLConnection ['String']  getHeaderFieldKey ( [('int', ['n'])] )": [],
+  "HttpURLConnection ['String']  getRequestMethod (  )": [
+    "URLRequest ['String']  httpMethod (  )",
+    "NSURLRequest ['String']  httpMethod (  )"
+  ],
+  "HttpURLConnection []  setChunkedStreamingMode ( [('int', ['chunklen'])] )": [],
+  "HttpURLConnection ['InputStream']  getErrorStream (  )": [],
+  "HttpURLConnection ['boolean']  getInstanceFollowRedirects (  )": [],
+  "HttpURLConnection ['int']  getResponseCode (  )": [
+    "HTTPURLResponse ['Int']  statusCode (  )"
+  ]
+}
